@@ -1,6 +1,7 @@
 # Super-Ultra-Sintesis
 
 Idea seleccionada (Título del proyecto)
+Servidor truenas con Maestro-esclavo LDAP
 
 Justificar la elección de esa idea
 
