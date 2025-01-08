@@ -3,7 +3,7 @@
 
 1. Idea seleccionada (Idea del Proyecto)
 
-Nuestro Proyecto consistirá en crear 
+   - Nuestro Proyecto consistirá
 
 2. Justificar la elección de esa idea
 
@@ -18,6 +18,8 @@ Nuestro Proyecto consistirá en crear
 
 
 6. Materiales necesarios (físicos y lógicos)
+   
+   - Oracle virtualbox (DNS + DHCP)
+   - Servidor Truenas
 
-
-7. Recursos (Bibliografía, webgrafía, vídeos, cursos o demás multimedia)
+8. Recursos (Bibliografía, webgrafía, vídeos, cursos o demás multimedia)
