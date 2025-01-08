@@ -1,8 +1,7 @@
 # Super-Ultra-Sintesis
 
-Idea seleccionada (Título del proyecto)
+## Idea seleccionada (Idea del Proyecto)
 
-Servidor truenas con Maestro-esclavo LDAP
 
 Justificar la elección de esa idea
 
