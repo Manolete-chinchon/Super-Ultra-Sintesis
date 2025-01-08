@@ -4,6 +4,7 @@
 1. Idea seleccionada (Idea del Proyecto)
 
 Nuestro Proyecto consistirá en crear 
+
 2. Justificar la elección de esa idea
 
 
