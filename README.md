@@ -3,7 +3,7 @@
 
 1. Idea seleccionada (Idea del Proyecto)
 
-   - Nuestro Proyecto consistirá en la creación de una página web con servidores DNS+DHCP, un servidor truenas encargado de realizar las copias de seguridaD Y la implementacion de un servidor LDAP 
+   - Nuestro Proyecto consistirá en la creación de una página web con servidores DNS+DHCP, un servidor truenas encargado de realizar las copias de seguridad Y la implementacion de un servidor LDAP 
 
 2. Justificar la elección de esa idea
 
@@ -24,4 +24,5 @@
    - Oracle virtualbox (DNS + DHCP)
    - Servidor Truenas
    - firewall
+     
 8. Recursos (Bibliografía, webgrafía, vídeos, cursos o demás multimedia)
