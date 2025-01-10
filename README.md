@@ -18,11 +18,16 @@
 
 6. Módulos del ciclo que tengan que ver con el proyecto (2 o más)
 
+   Los módulos del ciclo que estarán presente en nuestro proyecto serán principalmente:
+   - Aplicaciones web
+   - Seguridad informática
+   - sistemas operativos en red
+   - Servicios en red 
 
-7. Materiales necesarios (físicos y lógicos)
+8. Materiales necesarios (físicos y lógicos)
    
    - Oracle virtualbox (DNS + DHCP)
    - Servidor Truenas
    - firewall
      
-8. Recursos (Bibliografía, webgrafía, vídeos, cursos o demás multimedia)
+9. Recursos (Bibliografía, webgrafía, vídeos, cursos o demás multimedia)
