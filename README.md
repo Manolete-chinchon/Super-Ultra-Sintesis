@@ -11,7 +11,7 @@
 
 4. Hasta donde quiero llegar con el proyecto (Objetivos)
 
-    -
+    -Nuestro objetivo con el proyecto es adquirir conocimientos 
 
 5. A quién va dirigido este proyecto (Público objetivo)
 
@@ -26,8 +26,7 @@
 
 8. Materiales necesarios (físicos y lógicos)
    
-   - Oracle virtualbox (DNS + DHCP)
-   - Servidor Truenas
+   - Oracle virtualbox para los servidores (DNS + DHCP, truenas)
    - firewall
      
 9. Recursos (Bibliografía, webgrafía, vídeos, cursos o demás multimedia)
