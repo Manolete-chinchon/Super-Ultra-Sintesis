@@ -22,7 +22,7 @@
    Los módulos del ciclo que estarán presente en nuestro proyecto serán principalmente:
    - Aplicaciones web
    - Seguridad informática
-   - sistemas operativos en red
+   - Sistemas operativos en red
    - Servicios en red 
 
 8. Materiales necesarios (físicos y lógicos)
