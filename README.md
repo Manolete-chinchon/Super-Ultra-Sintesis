@@ -7,7 +7,7 @@
 
 2. Justificar la elección de esa idea
 
-   - 
+   - Por desgracia para nosotros tenemos una recuperación que hacer que consiste en comunicar dos servidores y un cliente por LDAP, però esta idea nos resultó atractiva y quisimos sacarle más potencial utilizando el Truenas como cliente de los servidores master-slave. El Truenas era un proyecto interesante con muchas cosas que explorar y resultaria interesante juntarlo.
 
 4. Hasta donde quiero llegar con el proyecto (Objetivos)
 
@@ -15,7 +15,7 @@
 
 5. A quién va dirigido este proyecto (Público objetivo)
 
-  -
+  - Este proyecto va dirigido principalmente para empresas con información sensible que necesitan mucha seguridad. Con este proyecto se generan dos copias de seguridad por eso está dirigido a empresas, para añadir mucha protección a la información vital
 
 6. Módulos del ciclo que tengan que ver con el proyecto (2 o más)
 
