@@ -1,4 +1,4 @@
-# Super-Ultra-Sintesis
+# Super-Ultra-Síntesis
 
 
 1. Idea seleccionada (Idea del Proyecto)
