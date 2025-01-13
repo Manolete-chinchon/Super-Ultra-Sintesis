@@ -9,15 +9,15 @@
 
    - Por desgracia para nosotros tenemos una recuperación que hacer que consiste en comunicar dos servidores y un cliente por LDAP, però esta idea nos resultó atractiva y quisimos sacarle más potencial utilizando el Truenas como cliente de los servidores master-slave. El Truenas era un proyecto interesante con muchas cosas que explorar y resultaria interesante juntarlo.
 
-4. Hasta donde quiero llegar con el proyecto (Objetivos)
+3. Hasta donde quiero llegar con el proyecto (Objetivos)
 
-  -
+  - Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a explorar y poder manejar con fluidez un servidor Truenas. Por parte del protocolo LDAP no conocemos nada y por parte del servidor Truenas sabemos poco y tiene opciones muy interesantes por explorar.
 
-5. A quién va dirigido este proyecto (Público objetivo)
+4. A quién va dirigido este proyecto (Público objetivo)
 
   - Este proyecto va dirigido principalmente para empresas con información sensible que necesitan mucha seguridad. Con este proyecto se generan dos copias de seguridad por eso está dirigido a empresas, para añadir mucha protección a la información vital
 
-6. Módulos del ciclo que tengan que ver con el proyecto (2 o más)
+5. Módulos del ciclo que tengan que ver con el proyecto (2 o más)
 
    Los módulos del ciclo que estarán presente en nuestro proyecto serán principalmente:
    - Aplicaciones web
@@ -25,9 +25,9 @@
    - Sistemas operativos en red
    - Servicios en red 
 
-8. Materiales necesarios (físicos y lógicos)
+7. Materiales necesarios (físicos y lógicos)
    
    - Oracle virtualbox para los servidores (DNS + DHCP, truenas)
    - firewall
      
-9. Recursos (Bibliografía, webgrafía, vídeos, cursos o demás multimedia)
+8. Recursos (Bibliografía, webgrafía, vídeos, cursos o demás multimedia)
