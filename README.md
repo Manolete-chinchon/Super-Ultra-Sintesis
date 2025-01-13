@@ -29,5 +29,8 @@
    
    - Oracle virtualbox para los servidores (DNS + DHCP, truenas)
    - firewall
+   - Cisco Packet Tracer (Para mapa lógico)
+   - HTML + CSS
+   - APACHE O NGINX (PARA WEB)
      
 8. Recursos (Bibliografía, webgrafía, vídeos, cursos o demás multimedia)
