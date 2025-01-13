@@ -11,11 +11,11 @@
 
 3. Hasta donde quiero llegar con el proyecto (Objetivos)
 
-- Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a explorar y poder manejar con fluidez un servidor Truenas. Por parte del protocolo LDAP no conocemos nada y por parte del servidor Truenas sabemos poco y tiene opciones muy interesantes por explorar.
+   - Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a explorar y poder manejar con fluidez un servidor Truenas. Por parte del protocolo LDAP no conocemos nada y por parte del servidor Truenas sabemos poco y tiene opciones muy interesantes por explorar.
 
 4. A quién va dirigido este proyecto (Público objetivo)
 
-  - Este proyecto va dirigido principalmente para empresas con información sensible que necesitan mucha seguridad. Con este proyecto se generan dos copias de seguridad por eso está dirigido a empresas, para añadir mucha protección a la información vital
+   - Este proyecto va dirigido principalmente para empresas con información sensible que necesitan mucha seguridad. Con este proyecto se generan dos copias de seguridad por eso está dirigido a empresas, para añadir mucha protección a la información vital
 
 5. Módulos del ciclo que tengan que ver con el proyecto (2 o más)
 
