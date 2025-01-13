@@ -27,7 +27,7 @@
 
 7. Materiales necesarios (físicos y lógicos)
    
-   - Oracle virtualbox para los servidores (DNS + DHCP, truenas)
+   - Oracle virtualbox para los servidores (DNS + DHCP, Truenas)
    - firewall
    - Cisco Packet Tracer (Para mapa lógico)
    - HTML + CSS
