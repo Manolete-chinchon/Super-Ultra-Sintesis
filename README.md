@@ -36,4 +36,6 @@
 8. Recursos (Bibliografía, webgrafía, vídeos, cursos o demás multimedia)
    - https://www.w3schools.com/html/html_intro.asp
    - https://openwebinars.net/academia/portada/html5-css3/
+   - https://askubuntu.com/questions/360190/how-to-configure-master-slave-ldap-replication
+   
    
