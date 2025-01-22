@@ -1,4 +1,4 @@
-# Super-Ultra-Síntesis
+# Briefing
 
 
 1. Idea seleccionada (Idea del Proyecto)
