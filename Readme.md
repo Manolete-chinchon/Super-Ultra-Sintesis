@@ -27,11 +27,11 @@
 
 7. Materiales necesarios (físicos y lógicos)
    
-   - Oracle virtualbox para los servidores (DNS + DHCP, Truenas)
-   - Sophos firewall
-   - Cisco Packet Tracer (Para mapa lógico)
-   - HTML + CSS
-   - APACHE O NGINX (PARA WEB)
+   - Oracle virtualbox para los servidores (DNS + DHCP, Truenas).
+   - Sophos firewall.
+   - Cisco Packet Tracer (Para mapa lógico).
+   - HTML + CSS.
+   - APACHE O NGINX (PARA WEB).
      
 8. Recursos (Bibliografía, webgrafía, vídeos, cursos o demás multimedia)
    - https://www.w3schools.com/html/html_intro.asp
