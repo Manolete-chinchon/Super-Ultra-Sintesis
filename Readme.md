@@ -20,10 +20,10 @@
 5. Módulos del ciclo que tengan que ver con el proyecto (2 o más)
 
    Los módulos del ciclo que estarán presente en nuestro proyecto serán principalmente:
-   - Aplicaciones web
-   - Seguridad informática
-   - Sistemas operativos en red
-   - Servicios en red 
+   - Aplicaciones web.
+   - Seguridad informática.
+   - Sistemas operativos en red.
+   - Servicios en red. 
 
 7. Materiales necesarios (físicos y lógicos)
    
