@@ -7,6 +7,7 @@
       CSS
       PHP
       MySQL
+      JavaScript
       Máquina virtual 
   ## Hardware a Implementar 
       Firewall
