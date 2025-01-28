@@ -39,6 +39,8 @@
    - https://askubuntu.com/questions/360190/how-to-configure-master-slave-ldap-replication
    - https://www.youtube.com/watch?v=LzRK_8zwqxY
    - https://somebooks.es/?s=LDAP+
+   - https://pandao.github.io/editor.md/en.html
+     
      
    
    
