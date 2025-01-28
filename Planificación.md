@@ -3,6 +3,7 @@
   ## Objetivos y Funcionalidades
       
   ## Tecnologías a Implementar
+    Lastecnologias que se implementarán en el proyecto 
       HTML
       CSS
       PHP
