@@ -1,7 +1,8 @@
 # Planificación  y Arquitectura
 
   ## Objetivos y Funcionalidades
-    Replicación de servidor OpenLDAP maestro-esclavo que copia la base de datos de una aplicación web que mejora la seguridad para proteger las copias  
+    Replicación de servidor OpenLDAP maestro-esclavo que copia la base de datos de una aplicación web 
+    que mejora la seguridad para proteger las copias  
   ## Tecnologías a Implementar
     Las tecnologias que se implementarán en el proyecto 
       HTML
