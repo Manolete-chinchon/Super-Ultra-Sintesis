@@ -1,6 +1,5 @@
 # Briefing
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/IMG-20241027-WA0014.jpg)
 
 1. Idea seleccionada (Idea del Proyecto)
 
