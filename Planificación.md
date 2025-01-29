@@ -10,10 +10,9 @@
       PHP
       MySQL
       JavaScript
-      Máquina virtual 
-  ## Hardware a Implementar 
+  ## Hardware virtualizado
       Firewall
-      
+      Máquina virtual 
   ## Servicios a Implementar
       DNS: para la resolución de nombres de dominio
       DHCP: para la asignación de IP 
