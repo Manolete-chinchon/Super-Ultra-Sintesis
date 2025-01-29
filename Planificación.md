@@ -25,4 +25,4 @@
       
   ## Asignación de Roles y Responsabilidades
      Àlex: Parte primcipal de la web, LDAP, apoyo al Truenas
-     Roberto: LDAP, parte principal del Truenas, apoyo a la web
+     Roberto: LDAP, parte principal del Truenas, apoyo a la web, DNS
