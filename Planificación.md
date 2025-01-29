@@ -5,7 +5,7 @@
     que mejora la seguridad para proteger las copias  
   ## Tecnologías a Implementar
     Las tecnologias que se implementarán en el proyecto 
-      HTML
+      HTML: es el componente más básico de la Web. Define el significado y la estructura del contenido web
       CSS
       PHP
       MySQL
