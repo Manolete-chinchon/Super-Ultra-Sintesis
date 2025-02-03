@@ -4,7 +4,9 @@
     Replicación de servidor OpenLDAP maestro-esclavo que copia la base de datos de una aplicación web 
     que mejora la seguridad para proteger las copias  
   ## Tecnologías a Implementar
+  
     Las tecnologias que se implementarán en el proyecto 
+    
       HTML: es el componente más básico de la Web. Define el significado y la estructura del contenido web.
       
       CSS: unido al código HTML permite darle forma, color, posición y otras características visuales a un documento web.
