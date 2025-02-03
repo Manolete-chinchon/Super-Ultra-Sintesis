@@ -14,7 +14,8 @@
       PHP: ofrece varias posibilidades para ofrecer contenidos web dinámicos en su sitio web. PHP puede manejar fácilmente.
       una variedad de bases de datos, sistemas de archivos y directorios y también es adecuado para aplicaciones web complejas.
       
-      MySQL:
+      MySQL: es un sistema de gestión de bases de datos relacionales de código abierto. Al igual que con otras bases de datos relacionales, MySQL almacena los datos en tablas formadas
+      por filas y columnas. Los usuarios   pueden definir, manipular, controlar y consultar datos con el lenguaje de consulta estructurada, también conocido como SQL.
       
       JavaScript:
       
