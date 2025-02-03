@@ -1,3 +1,4 @@
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/TruePlayer-3-2-2025.png)
 # Briefing
 
 
