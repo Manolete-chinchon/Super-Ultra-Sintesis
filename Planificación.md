@@ -6,9 +6,9 @@
   ## Tecnologías a Implementar
     Las tecnologias que se implementarán en el proyecto 
       HTML: es el componente más básico de la Web. Define el significado y la estructura del contenido web
-      CSS
-      PHP
-      MySQL
+      CSS: unido al código HTML permite darle forma, color, posición y otras características visuales a un documento web.
+      PHP: ofrece varias posibilidades para ofrecer contenidos web dinámicos en su sitio web. PHP puede manejar fácilmente una variedad de bases de datos, sistemas de archivos y directorios y también es adecuado para                    aplicaciones web complejas.
+      MySQL: 
       JavaScript
   ## Hardware virtualizado
       Firewall
