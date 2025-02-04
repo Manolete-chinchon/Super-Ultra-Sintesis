@@ -1,5 +1,6 @@
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/TruePlayer-3-2-2025.png)
-# Briefing
+<details>
+  <summary><h2> Briefing</h2></summary>
 
 
 1. Idea seleccionada (Idea del Proyecto)
@@ -41,7 +42,7 @@
    - https://www.youtube.com/watch?v=LzRK_8zwqxY
    - https://somebooks.es/?s=LDAP+
    - https://pandao.github.io/editor.md/en.html
-     
+</details>     
      
    
    
