@@ -3,10 +3,12 @@
   <summary><h2>📖 Briefing</h2></summary>
 
 
-1. Idea seleccionada (Idea del Proyecto)
-
-   - Nuestro Proyecto consistirá en la creación de una página web con servidores DNS para la resolucion del nombre del dominio de la web, DHCP que se encargará de asignar direcciones ip a los servidores, un servidor truenas encargado de realizar las copias de seguridad Y la implementacion de un servidor LDAP que administre a los usuarios y permisos de la red. también haremos uso de un firewall para la prevención de ataques externos.
-
+<details>
+  <summary><b>Idea seleccionada (Idea del Proyecto)</b></summary>
+  <br>
+  Nuestro Proyecto consistirá en la creación de una página web con servidores DNS para la resolucion del nombre del dominio de la web, DHCP que se encargará de asignar direcciones ip a los servidores, un servidor    truenas encargado de realizar las copias de seguridad Y la implementacion de un servidor LDAP que administre a los usuarios y permisos de la red. también haremos uso de un firewall para la prevención de ataques     externos.
+  
+</details>
 2. Justificar la elección de esa idea
 
    - Por desgracia para nosotros tenemos una recuperación que hacer que consiste en comunicar dos servidores y un cliente por LDAP, però esta idea nos resultó atractiva y quisimos sacarle más potencial utilizando el Truenas como cliente de los servidores master-slave. El Truenas era un proyecto interesante con muchas cosas que explorar y resultaria interesante juntarlo.
