@@ -3,6 +3,7 @@
   ## Objetivos y Funcionalidades
   Replicación de servidor OpenLDAP maestro-esclavo que copia la base de datos de una aplicación web 
   que mejora la seguridad para proteger las copias  
+ 
   ## Tecnologías a Implementar
   
   Las tecnologias que se implementarán en el proyecto 
@@ -17,10 +18,12 @@
   **MySQL** : es un sistema de gestión de bases de datos relacionales de código abierto. Al igual que con otras bases de datos relacionales, MySQL almacena los datos en tablas formadas
       por filas y columnas. Los usuarios   pueden definir, manipular, controlar y consultar datos con el lenguaje de consulta estructurada, también conocido como SQL.
       
-  **JavaScript**: 
+  **JavaScript**: JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas. 
+  Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, las funciones de JavaScript pueden mejorar la experiencia del usuario de
+  un sitio web.
       
   ## Hardware virtualizado
-  Firewall
+  Firewall: Un firewall es un sistema de seguridad de red de las computadoras que restringe el tráfico de Internet entrante, saliente o dentro de una red privada. Un firewall decide qué tráfico de red se admite y qué tráfico se considera peligroso. Básicamente, separa el tráfico bueno del malo, o el seguro del no fiable.
  
   Máquina virtual 
   
@@ -40,6 +43,6 @@
   TrueNAS CORE 13.0-U6.4
       
   ## Asignación de Roles y Responsabilidades
-  Àlex: Parte primcipal de la web, LDAP, apoyo al Truenas
+  Àlex: Parte principal de la web, LDAP, apoyo al Truenas
   
   Roberto: LDAP, parte principal del Truenas, apoyo a la web, DNS
