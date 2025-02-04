@@ -21,11 +21,16 @@
       
   ## Hardware virtualizado
   Firewall
+ 
   Máquina virtual 
+  
   ## Servicios a Implementar
   DNS: para la resolución de nombres de dominio
+  
   DHCP: para la asignación de IP 
+  
   LDAP: Para la Gestión de Usuarios
+  
   APACHE: Para el alojamiento de la web
       
   ## Sistemas Operativos a Utilizar
