@@ -1,4 +1,4 @@
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/TruePlayer-3-2-2025.png)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/TruePlayer-3-2-2025.png)
 <details>
   <summary><h2>📖 Briefing</h2></summary>
 
