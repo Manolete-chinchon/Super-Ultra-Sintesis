@@ -6,10 +6,7 @@
 <details>
   <summary><b>Idea del Proyecto</b></summary>
   <br>
-Nuestro Proyecto consistirá en la creación de una página web con servidores DNS para la resolucion del nombre del dominio de la web, DHCP que se encargará de asignar direcciones ip a los servidores, un servidor truenas encargado de realizar las copias de seguridad Y la implementacion de un servidor LDAP que administre a los usuarios y permisos de la red. también haremos uso de un firewall para la prevención de ataques externos.
-  <br>
-  <br>
-La idea principal es hacer una pagina web de ventas de zapatos al estilo nike y adidas, con un sistema de backups que genere copias de seguridad conectado a un servidor DNS, las copias seran distribuidas por un servidor Truenas donde será almacenado por los servidores Maestro-esclavo conectados por LDAP todo protegido por un firewall.
+La idea principal es hacer una pagina web de ventas de zapatos al estilo nike y adidas, con un sistema de backups que genere copias de seguridad conectado a un servidor DNS y  además un DHCP que se encargará de asignar direcciones ip a los servidores, las copias seran distribuidas por un servidor Truenas donde será almacenado por los servidores Maestro-esclavo conectados por LDAP todo protegido por un firewall.
 </details>
 
 <details>
