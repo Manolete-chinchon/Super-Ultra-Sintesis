@@ -116,4 +116,10 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
   Roberto: LDAP, parte principal del Truenas, apoyo a la web, DNS
 </details>
 
+<details>
+  <summary><b>Sistemas Operativos a Utilizar</b></summary>
+  <br>
+  ![](
+</details>
+
 </details>
