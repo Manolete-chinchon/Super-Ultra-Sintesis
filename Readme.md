@@ -119,7 +119,7 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
 <details>
   <summary><b>Sistemas Operativos a Utilizar</b></summary>
   <br>
-  ![](
+  ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Gr%C3%A1fico%20Diagrama%20de%20Gantt%20Profesional%20Multicolor.png)
 </details>
 
 </details>
