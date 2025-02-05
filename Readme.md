@@ -12,10 +12,10 @@ La idea principal es hacer una pagina web de ventas de zapatos al estilo nike y 
 <details>
   <summary><b>Objetivos</b></summary>
   <br>
+Queremos que la web tenga la estructura similar a nike o adidas, con carrrito, lista de deseos y opciones de crear cuenta e inicio y cerrar sesión. Otra cosas que queremos es que con Mysql guardamos la base de datos y estas se envien al servidor Truenas en forma de backups para que las distribuya a los servidores linux Maestro-Esclavo que lo almacenará. Las Ip seran distribuidas por el DHCP que se situará junto el firewall.
+  <br>
+  <br>
 Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a explorar y poder manejar con fluidez un servidor Truenas. Por parte del protocolo LDAP no conocemos nada y por parte del servidor Truenas sabemos poco y tiene opciones muy interesantes por explorar.
-  <br>
-  <br>
-
 </details>
 
 <details>
