@@ -142,12 +142,14 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
 
 <details>
   <summary><b>DNS</b></summary>
- 
+ <br>
+  
 </details>
 
 <details>
   <summary><b>DHCP</b></summary>
- 
+ <br>
+  
 </details>
 
 </details>
