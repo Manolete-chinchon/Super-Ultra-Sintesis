@@ -64,6 +64,7 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
   <summary><b>Tecnologías a Implementar</b></summary>
   <br>
   Las tecnologias que se implementarán en el proyecto 
+  <br>
     
   **HTML**: HTML (Lenguaje de Marcas de Hipertexto) es el componente más básico de la Web. Define el significado y la estructura del contenido web. 
       
@@ -83,6 +84,7 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
 <details>
   <summary><b>Hardware virtualizado</b></summary>
   <br>
+  
   **Firewall**: Un firewall es un sistema de seguridad de red de las computadoras que restringe el tráfico de Internet entrante, saliente o dentro de una red privada. Un firewall decide qué tráfico de red se admite y qué tráfico se considera peligroso. Básicamente, separa el tráfico bueno del malo, o el seguro del no fiable.
  
   **Máquina virtual**: Una máquina virtual (VM) es una representación virtual o emulación de un equipo físico que utiliza software en lugar de hardware para ejecutar programas e implementar aplicaciones. Al utilizar los recursos de una única máquina física, como memoria, CPU, interfaz de red y almacenamiento, las máquinas virtuales permiten a las empresas ejecutar virtualmente varias máquinas con distintos sistemas operativos en un único dispositivo.
@@ -91,6 +93,7 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
 <details>
   <summary><b>Servicios a Implementar</b></summary>
   <br>
+  
   **DNS**: El sistema de nombres de dominio (DNS) es el componente del protocolo estándar de Internet responsable de convertir los nombres de dominio de uso humano en las direcciones del protocolo de Internet (IP) que los ordenadores utilizan para identificarse entre sí en la red.
   
   **DHCP**: Este protocolo se encarga de asignar de manera dinámica y automática una dirección IP, ya sea una dirección IP privada desde el router hacia los equipos de la red local, o también una IP pública por parte de un operador que utilice este tipo de protocolo para el establecimiento de la conexión.
