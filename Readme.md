@@ -26,7 +26,7 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
   <br>
   
    <p>&nbsp;&nbsp;&nbsp;&nbsp;Aplicaciones web: Este modulo se implementará para la creación y posterior edición de la web, html y css por parte del contenido y diseño, y php y mysql para la creación y la conexión con una base de datos.</p>
-   <p>&nbsp;&nbsp;&nbsp;&nbsp;Seguridad informática: Este modulo se implementará para el uso del servidor Truenas, se encargará de la creación y distribución de los backups a los servidores linux master-slave, además de la implementación de un sistema de seguridad mediante firewall por sophos que tambien hará la función de DHCP</p>
+   <p>&nbsp;&nbsp;&nbsp;&nbsp;Seguridad informática: Este modulo se implementará para el uso del servidor Truenas, se encargará de la creación y distribución de los backups a los servidores linux master-slave, además de la implementación de un sistema de seguridad mediante firewall por sophos que tambien hará la función de DHCP.</p>
    <p>&nbsp;&nbsp;&nbsp;&nbsp;Sistemas operativos en red.</p>
    <p>&nbsp;&nbsp;&nbsp;&nbsp;Servicios en red.</p>
 </details>
