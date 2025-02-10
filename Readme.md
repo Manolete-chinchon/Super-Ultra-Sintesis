@@ -136,3 +136,10 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
 </details>
 
 </details>
+
+<details>
+  <summary><h2>DNS y DHCP</h2></summary>
+
+    <details>
+      <summary><b>DNS</b></summary>
+  </details>
