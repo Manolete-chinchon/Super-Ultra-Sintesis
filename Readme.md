@@ -125,7 +125,7 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
 <details>
   <summary><b>Diagrama de red</b></summary>
 
-  ![](
+  ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Captura%20de%20pantalla%202025-02-10%20081700.png)
 </details>
 
 </details>
