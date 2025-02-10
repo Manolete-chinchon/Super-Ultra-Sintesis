@@ -22,6 +22,9 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
   <summary><b>Módulos del ciclo que tengan que ver con el proyecto</b></summary>
 <br>
    Los módulos del ciclo que estarán presente en nuestro proyecto serán principalmente:
+  <br>
+  <br>
+  
    <p>&nbsp;&nbsp;&nbsp;&nbsp;Aplicaciones web.</p>
    <p>&nbsp;&nbsp;&nbsp;&nbsp;Seguridad informática.</p>
    <p>&nbsp;&nbsp;&nbsp;&nbsp;Sistemas operativos en red.</p>
@@ -64,6 +67,7 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
   <summary><b>Tecnologías a Implementar</b></summary>
   <br>
   Las tecnologias que se implementarán en el proyecto 
+  <br>
   <br>
     
   **HTML**: HTML (Lenguaje de Marcas de Hipertexto) es el componente más básico de la Web. Define el significado y la estructura del contenido web. 
