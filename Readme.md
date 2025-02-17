@@ -177,3 +177,9 @@ Pasos a seguir
 Incidencias
 
 </details>
+
+<details>
+  <summary><h2>🔥 Sophos</h2></summary>
+ <br>
+
+</details>
