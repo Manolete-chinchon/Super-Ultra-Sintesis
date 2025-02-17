@@ -156,5 +156,6 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
 
 <details>
   <summary><h2>👩🏿‍💻 Apache</h2></summary>
+  <br>
 
 </details>
