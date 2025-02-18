@@ -144,6 +144,35 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
   <summary><b>DNS</b></summary>
  <br>
   
+Cuando administramos una infraestructura de servidores, es útil poder buscar las direcciones de red o IPs usando un nombre en lugar de tener que recordar números. Para lograr esto, podemos usar el servicio DNS (Sistema de Nombres de Dominio), que convierte los nombres en direcciones IP.
+  
+En este caso, configuraremos un servidor DNS en Ubuntu 22.04 usando BIND9. Este servidor tendrá dos tipos de zonas:
+
+**Zona directa:** que permite resolver nombres a direcciones IP.
+
+**Zona inversa:** que convierte direcciones IP en nombres.
+
+Requisitos previos:
+ - Una MV con Ubuntu Server 22.04 
+ - Un  adaptador de red: 
+    - Red NAT: 192.168.1.0/24
+
+## Vamos con la Instalación
+
+Antes de empezar actualizamos el sistema operativo para garantizar que todas las aplicaciones y paquetes estén en su versión más reciente.
+Para ello utilizamos los comandos  
+
+**sudo apt update** para listar los paquetes que necesitan actualizaciones.
+**sudo apt upgrade** para realizar las actualizaciones de los paquetes.
+
+También instalamos el servicio Bind9 con el comando:
+**sudo apt install bind9**
+
+## Vamos con la configuración
+
+Para el servidor necesitamos que la IP se mantenga fija para ello 
+
+
 </details>
 
 <details>
