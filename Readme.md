@@ -157,7 +157,7 @@ Requisitos previos:
  - Un  adaptador de red: 
     - Red NAT: 192.168.1.0/24
 
-## Vamos con la Instalación
+## Instalación
 
 Antes de empezar actualizamos el sistema operativo para garantizar que todas las aplicaciones y paquetes estén en su versión más reciente.
 Para ello utilizamos los comandos  
@@ -168,9 +168,11 @@ Para ello utilizamos los comandos
 También instalamos el servicio Bind9 con el comando:
 **sudo apt install bind9**
 
-## Vamos con la configuración
+## configuración
 
-Para el servidor necesitamos que la IP se mantenga fija para ello 
+Para el servidor necesitamos que la IP se mantenga fija para ello modificamos el archivo netplan ubicado en /etc/netplan/00-installer-config.yaml
+el resultado deberia tener la siguiente estructura:
+
 
 
 </details>
