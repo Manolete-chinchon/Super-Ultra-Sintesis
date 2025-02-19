@@ -157,7 +157,7 @@ Requisitos previos:
  - Un  adaptador de red: 
     - Red NAT: 192.168.1.0/24
 
-## Instalación
+## Actulización del sistema
 
 Antes de empezar actualizamos el sistema operativo para garantizar que todas las aplicaciones y paquetes estén en su versión más reciente.
 Para ello utilizamos los comandos  
@@ -173,8 +173,29 @@ También instalamos el servicio Bind9 con el comando:
 Para el servidor necesitamos que la IP se mantenga fija para ello modificamos el archivo netplan ubicado en /etc/netplan/00-installer-config.yaml
 el resultado deberia tener la siguiente estructura:
 
+   ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/netplan.JPG)
+
+Para realizar los cambios del netplan aplicamos 
+  
+    sudo netplan try - Indica si hay algun error en la configuación 
+  
+    sudo netplan apply - Aplicar los cambios 
+
+## **Zonas**
+<br>
+El primer archivo que editaremos será el que nos servirá para la zona directa. Para ello en la ubicación /etc/bind/ crearemos una carpeta zones, 
+copiamos el archivo db.local cambiandole el nombre con el comando
+<br>
+
+      
+        sudo cp db.local /etc/bind/zones/db.proyectodns.com
 
 
+Ahora podemos editar el archivo, debería quedar algo parecido a lo siguiente:
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Zona%20directa%20dns.JPG)
+
+  
 </details>
 
 <details>
