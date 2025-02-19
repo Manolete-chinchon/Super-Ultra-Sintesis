@@ -183,19 +183,90 @@ Para realizar los cambios del netplan aplicamos
 
 ## **Zonas**
 <br>
-El primer archivo que editaremos será el que nos servirá para la zona directa. Para ello en la ubicación /etc/bind/ crearemos una carpeta zones, 
+
+**Zona Directa**
+
+El primer archivo que editaremos será el que nos servirá para la zona directa. Para ello en la ubicación /etc/bind/ crearemos un directorio zones, 
 copiamos el archivo db.local cambiandole el nombre con el comando
 <br>
 
-      
         sudo cp db.local /etc/bind/zones/db.proyectodns.com
-
 
 Ahora podemos editar el archivo, debería quedar algo parecido a lo siguiente:
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Zona%20directa%20dns.JPG)
+<br>
 
-  
+comprobamos que el archivo esta correctamente editado usamos el comando:
+<br>
+
+      sudo named-checkzone db.proyectodns.com /etc/bind/zones/db.proyectodns.com
+<br>
+
+**Zona Inversa**
+
+Para la zona inversa copiamos el archivo db.127 y lo guardamos en el directorio zones en mi caso lo he llamado db.1.168.192 
+<br>
+
+      sudo cp db.127 /etc/bind/zones/db.1.168.192
+      
+Ahora editamos el contenido del archivo y el resultado debería verse así:
+
+  ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Zona%20inversa%20DNS.JPG)
+
+Comprobamos que el archivo ha sido correctamente editado con:
+<br>
+
+      sudo named-checkzone 6.168.192.in-addr-arpa /etc/bind/zones/db.6.168.192
+        
+<br>
+
+**Configuración Local**
+
+<br>
+
+Para configurar las zonas de DNS locales para que el servidor resuelva nombres de dominio específicos dentro de la red editaremos el fichero **named.conf.local** antes de editar es recomendable hacer una copia del fichero
+con el comando 
+
+<br>
+
+          sudo cp named.conf.local /etc/bind/named.conf.local.BKP
+
+Ahora podemos editar el fichero named.conf.local y el resultado debería ser el siguiente:
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/named_conf_local.JPG)
+
+<br>
+Comprobamos que la configuración es la correcta y no hayamos cometido errores con el comando:
+
+<br>
+
+        named-checkconf
+
+si despues de lanzar el comando no devuelve nada significa que está bien configurado 
+
+<br>
+
+## **lista de acceso y servidores forwarders**
+
+<br>
+
+Ahora editaremos el fichero **/etc/bind/named.conf.options** para crear una lista de acceso para restringir el acceso a quienes pueden realizar las consultas a nuestro servidor DNS. También pondremos un par de servidores forwarders donde pueda delegar nuestro servidor DNS local cuando no pueda resolver alguna consulta.
+
+El resultado del fichero deberia ser algo parecido al siguiente:
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Lista%20de%20acceso%20y%20forwaders.JPG)
+
+<br>
+
+Ya casi finalizamos, pero antes de poner en marcha el servicio modificamos el fichero **/etc/default/named** donde especificaremos la opción-4 como argumento para el usuario bind, que  se crea automáticamente durante la instalación del servicio bind9. 
+
+La opción -4  nos sirve para forzar el uso de IPv4 siempre y evitar  mensajes de error de red inalcanzable por direccionamiento IPv6.
+
+Resultado:
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/default%20named%20IPV4.JPG)
+
 </details>
 
 <details>
