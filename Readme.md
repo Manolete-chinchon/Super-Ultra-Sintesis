@@ -144,7 +144,7 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
   <summary><b>DNS</b></summary>
  <br>
   
-Cuando administramos una infraestructura de servidores, es útil poder buscar las direcciones de red o IPs usando un nombre en lugar de tener que recordar números. Para lograr esto, podemos usar el servicio DNS (Sistema de Nombres de Dominio), que convierte los nombres en direcciones IP.
+Cuando administramos una infraestructura de servidores, es útil poder buscar las direcciones de red o IPs usando un nombre en lugar de tener que recordar números. Para lograr esto, podemos usar el servicio DNS, que convierte los nombres en direcciones IP.
   
 En este caso, configuraremos un servidor DNS en Ubuntu 22.04 usando BIND9. Este servidor tendrá dos tipos de zonas:
 
