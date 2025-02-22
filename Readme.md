@@ -302,7 +302,7 @@ Para ello utilizamos los comandos
 Para el servidor necesitamos que la IP se mantenga fija para ello modificamos el archivo netplan ubicado en /etc/netplan/00-installer-config.yaml
 el resultado deberia tener la siguiente estructura:
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/image.png)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/netplan%20apache.png)
 
 Para realizar los cambios del netplan aplicamos 
   
@@ -315,6 +315,18 @@ Para realizar los cambios del netplan aplicamos
 Ahora que esta todo actualizado y configurado ya podemos instalar el apache, para ello ponemos el sguiente comando:
 
     sudo apt install apache2
+
+Una vez instalado podemos iniciar el servidor
+
+    systemctl start apache2
+
+Ahora que ya hemos iniciado comprobamos que funcione correctamente
+
+    systemctl status apache2
+
+Todo deberia verse así
+
+![]()
 
 </details>
 
