@@ -302,6 +302,8 @@ Para ello utilizamos los comandos
 Para el servidor necesitamos que la IP se mantenga fija para ello modificamos el archivo netplan ubicado en /etc/netplan/00-installer-config.yaml
 el resultado deberia tener la siguiente estructura:
 
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/image.png)
+
 Para realizar los cambios del netplan aplicamos 
   
     sudo netplan try - Indica si hay algun error en la configuación 
