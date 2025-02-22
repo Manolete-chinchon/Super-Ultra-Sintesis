@@ -326,6 +326,16 @@ Ahora que ya hemos iniciado comprobamos que funcione correctamente
 
 Todo deberia verse así
 
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/image.png)
+
+## Configuración de la web
+
+Para empezar entramo en el archivo index.html que se encuaentra en el directorio donde se almacenan las webs
+
+    sudo nano /var/www/html/index.html
+
+Dentro del archivo editamos el codigo para que la web se vea como queramos
+
 ![]()
 
 </details>
