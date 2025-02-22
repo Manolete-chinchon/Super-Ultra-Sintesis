@@ -163,6 +163,7 @@ Antes de empezar actualizamos el sistema operativo para garantizar que todas las
 Para ello utilizamos los comandos  
 
 **sudo apt update** para listar los paquetes que necesitan actualizaciones.
+<br>
 **sudo apt upgrade** para realizar las actualizaciones de los paquetes.
 
 También instalamos el servicio Bind9 con el comando:
@@ -281,23 +282,37 @@ Resultado:
   <summary><h2>👩🏿‍💻 Apache</h2></summary>
   <br>
 
-Introducción al servicio (Apache)
+Apache es un servidor web de código abierto y gratuito que ha sido uno de los más populares en el mundo desde su lanzamiento en 1995. Apache es desarrollado y mantenido por la Apache Software Foundation. Es altamente configurable y compatible con una amplia variedad de sistemas operativos, incluyendo Linux, Windows, y macOS.
 
-¿Qué es?
+Apache es utilizado para servir páginas web estáticas y dinámicas a los usuarios a través de internet o una intranet y además apache es compatible con una variedad de lenguajes de programación y tecnologías como PHP, Python, Perl, y más.
 
-¿Por qué es necesario?
+Para obtener informaciójn de fuentes oficiales entre en este enlace: https://httpd.apache.org/
 
-¿Dónde hay información oficial?
+## Actulización del sistema
 
-Extras
+Antes de empezar actualizamos el sistema operativo para garantizar que todas las aplicaciones y paquetes estén en su versión más reciente.
+Para ello utilizamos los comandos  
 
-Instalación
+**sudo apt update** para listar los paquetes que necesitan actualizaciones.
+<br>
+**sudo apt upgrade** para realizar las actualizaciones de los paquetes.
 
-Detalles de la MV
+## Configuración netplan
 
-Pasos a seguir
+Para el servidor necesitamos que la IP se mantenga fija para ello modificamos el archivo netplan ubicado en /etc/netplan/00-installer-config.yaml
+el resultado deberia tener la siguiente estructura:
 
-Incidencias
+Para realizar los cambios del netplan aplicamos 
+  
+    sudo netplan try - Indica si hay algun error en la configuación 
+  
+    sudo netplan apply - Aplicar los cambios 
+
+## Instalar apache
+
+Ahora que esta todo actualizado y configurado ya podemos instalar el apache, para ello ponemos el sguiente comando:
+
+    sudo apt install apache2
 
 </details>
 
