@@ -336,8 +336,15 @@ Para empezar entramo en el archivo index.html que se encuaentra en el directorio
 
 Dentro del archivo editamos el codigo para que la web se vea como queramos
 
-![]()
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Html%20juan.png)
 
+A continuacion entramos en los archivos de connfiguracion de la web
+
+    sudo nano /etc/apache2/sites-avalible/000-default.conf
+
+Allí configuramos el nombre de dominio, un alias (opcional) para el dominio, la pagina que se mostrará por defecto y la carpeta raíz del sitio web
+
+![]()
 </details>
 
 <details>
