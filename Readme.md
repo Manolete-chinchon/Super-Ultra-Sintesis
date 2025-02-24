@@ -345,6 +345,20 @@ A continuacion entramos en los archivos de connfiguracion de la web
 Allí configuramos el nombre de dominio, un alias (opcional) para el dominio, la pagina que se mostrará por defecto y la carpeta raíz del sitio web
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Configuraci%C3%B3n%20web.png)
+
+Luego miraremos los sitios que estan disponibles y luego los que estan activados, comprobamos si nuestra web está activada con los comandos
+
+    sudo ls /etc/apache2/sites-enabled
+    
+    sudo ls /etc/apache2/sites-available
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Sitios%20activados.png)
+
+Si nuestra web no esta activada aplicamos el siguiente comando para activarla
+
+    sudo a2ensite sitio-web.conf
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Activar%20sitio.png)
 </details>
 
 <details>
