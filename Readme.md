@@ -366,5 +366,102 @@ Si nuestra web no esta activada aplicamos el siguiente comando para activarla
 <details>
   <summary><h2>🔥 Sophos</h2></summary>
  <br>
+  
+## Competencia
+PfSense es un sistema operativo basado en FreeBSD que funciona como firewall y router. Es muy utilizado para gestionar redes, filtrar tráfico, crear redes privadas virtuales (VPN), y mucho más. En este caso, lo instalaremos en una máquina virtual o física, configurando una red interna y un adaptador puente para permitir la comunicación entre dispositivos.
 
+Requisitos previos
+Hardware o máquina virtual: Puedes instalar pfSense en una computadora física o en una máquina virtual (usando VirtualBox, VMware, Proxmox, etc.).
+
+Imagen ISO de pfSense: Descárgala desde la página oficial de pfSense.
+
+Dos adaptadores de red:
+
+Uno para la conexión a Internet (WAN).
+
+Otro para la red interna (LAN).
+
+Acceso a un gestor de virtualización (si usas máquina virtual).
+
+<h3>Preparación del entorno</h3>
+
+Si usas una máquina virtual, crea una nueva máquina con al menos:
+
+2 GB de RAM.
+
+3 CPU (recomendado 2 o más).
+
+16 GB de almacenamiento.
+
+Dos adaptadores de red:
+
+Adaptador 1: Modo puente (para la WAN, conectada a Internet).
+
+Adaptador 2: Red interna (para la LAN).
+
+Monta la imagen ISO de pfSense en la máquina virtual o en un USB booteable si es una instalación física.
+
+<h3>Instalación de pfSense</h3>
+
+Inicia la máquina virtual o física desde la imagen ISO de pfSense.
+
+Selecciona la opción “Install pfSense” en el menú de arranque.
+
+Sigue los pasos de instalación:
+
+Acepta el acuerdo de licencia.
+
+Selecciona el disco duro donde se instalará pfSense.
+
+Elige el esquema de partición (por defecto es suficiente).
+
+Confirma la instalación.
+
+Una vez completada la instalación, reinicia la máquina y retira la imagen ISO.
+
+<h3>Configuración inicial de pfSense</h3>
+
+Al reiniciar, pfSense te mostrará un menú de configuración.
+
+Configura las interfaces de red:
+
+pfSense detectará los adaptadores de red. Asigna:
+
+WAN: El adaptador conectado a Internet (modo puente).
+
+LAN: El adaptador para la red interna.
+
+Asigna direcciones IP:
+
+Para la WAN, pfSense obtendrá automáticamente una IP si está conectada a un router con DHCP.
+
+Para la LAN, asigna una IP estática (por ejemplo, 192.168.1.1).
+
+<h3>Configuración del adaptador puente</h3>
+
+El adaptador puente permite que pfSense se comunique directamente con la red física (por ejemplo, tu router de casa).
+
+En la configuración de la máquina virtual (o en el hardware físico), asegúrate de que el adaptador WAN esté en modo puente.
+
+pfSense usará este adaptador para conectarse a Internet y gestionar el tráfico.
+
+<h3>Configuración de la red interna</h3>
+
+Conecta los dispositivos de tu red interna al adaptador LAN.
+
+Configura los dispositivos para obtener IP automáticamente (DHCP) o asigna IPs manualmente en el rango de la LAN (por ejemplo, 192.168.1.2 a 192.168.1.254).
+
+Accede a la interfaz web de pfSense:
+
+Abre un navegador y ve a https://192.168.1.1 (la IP de la LAN).
+
+Inicia sesión con las credenciales predeterminadas (usuario: admin, contraseña: pfsense).
+
+<h3>Pruebas y verificación</h3>
+
+Verifica que los dispositivos en la LAN puedan conectarse a Internet.
+
+Prueba la conectividad entre dispositivos en la red interna.
+
+Asegúrate de que el firewall esté funcionando correctamente.
 </details>
