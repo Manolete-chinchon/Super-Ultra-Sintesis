@@ -109,10 +109,15 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
 
 <details>
   <summary><b>Sistemas Operativos a Utilizar</b></summary>
-  <br>
-  Ubuntu server versión 22.04.2
   
-  TrueNAS CORE 13.0-U6.4
+| Servicio | Sistema Operativo                | RAM  | Almacenamiento | Procesadores | Ip           |
+| -------- | -------------------------------- | ---- | -------------- | ------------ | ------------ |
+| DNS      | ubuntu-22.04.2-live-server-amd64 | 2 GB | 20 GB          | 2            | 192.168.1.12 |
+| DHCP     | ubuntu-22.04.2-live-server-amd64 | 2 GB | 20 GB          | 2            | 192.168.1.10 |
+| Apache   | ubuntu-22.04.2-live-server-amd64 | 2 GB | 16 GB          | 2            | 10.10.10.100 |
+| Firewall | ?                                | ? GB | ? GB           | ?            | ?            |
+| Truenas  | ?                                | ? GB | ? GB           | ?            | ?            |
+
 </details>
 
 <details>
