@@ -117,7 +117,7 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
 | DHCP     | ubuntu-22.04.2-live-server-amd64 | 2 GB | 20 GB          | 2            | 192.168.1.10 |
 | Apache   | ubuntu-22.04.2-live-server-amd64 | 2 GB | 16 GB          | 2            | 10.10.10.100 |
 | Firewall | ?                                | ? GB | ? GB           | ?            | ?            |
-| Truenas  | ?                                | ? GB | ? GB           | ?            | ?            |
+| Truenas  | TrueNAS-13.0-U6.3                | ? GB | ? GB           | ?            | ?            |
 
 </details>
 
