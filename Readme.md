@@ -306,9 +306,10 @@ el resultado deberia tener la siguiente estructura:
 
 Para realizar los cambios del netplan aplicamos 
   
-    sudo netplan try - Indica si hay algun error en la configuación 
-  
-    sudo netplan apply - Aplicar los cambios 
+    sudo netplan try 
+<br>
+
+    sudo netplan apply
 
 ## Instalar apache
 
@@ -349,7 +350,8 @@ Allí configuramos el nombre de dominio, un alias (opcional) para el dominio, la
 Luego miraremos los sitios que estan disponibles y luego los que estan activados, comprobamos si nuestra web está activada con los comandos
 
     sudo ls /etc/apache2/sites-enabled
-    
+<br>
+
     sudo ls /etc/apache2/sites-available
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Sitios%20activados.png)
