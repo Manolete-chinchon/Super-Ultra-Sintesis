@@ -112,6 +112,7 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
   
 | Servicio | Sistema Operativo                | RAM  | Almacenamiento | Procesadores | Ip           |
 | -------- | -------------------------------- | ---- | -------------- | ------------ | ------------ |
+| Host     | Win11_22H2_Spanish_x64v2         | 16 GB| 722 GB         | 8            | 100.77.20.48 |
 | DNS      | ubuntu-22.04.2-live-server-amd64 | 2 GB | 20 GB          | 2            | 192.168.1.12 |
 | DHCP     | ubuntu-22.04.2-live-server-amd64 | 2 GB | 20 GB          | 2            | 192.168.1.10 |
 | Apache   | ubuntu-22.04.2-live-server-amd64 | 2 GB | 16 GB          | 2            | 10.10.10.100 |
