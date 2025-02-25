@@ -163,7 +163,7 @@ Requisitos previos:
  - Un  adaptador de red: 
     - Red NAT: 192.168.1.0/24
 
-## Actulización del sistema
+## Actualización del sistema
 
 Antes de empezar actualizamos el sistema operativo para garantizar que todas las aplicaciones y paquetes estén en su versión más reciente.
 Para ello utilizamos los comandos  
@@ -294,7 +294,7 @@ Apache es utilizado para servir páginas web estáticas y dinámicas a los usuar
 
 Para obtener informaciójn de fuentes oficiales entre en este enlace: https://httpd.apache.org/
 
-## Actulización del sistema
+## Actualización del sistema
 
 Antes de empezar actualizamos el sistema operativo para garantizar que todas las aplicaciones y paquetes estén en su versión más reciente.
 Para ello utilizamos los comandos  
@@ -347,7 +347,7 @@ Dentro del archivo editamos el codigo para que la web se vea como queramos
 
 A continuacion entramos en los archivos de connfiguracion de la web
 
-    sudo nano /etc/apache2/sites-avalible/000-default.conf
+    sudo nano /etc/apache2/sites-availible/000-default.conf
 
 Allí configuramos el nombre de dominio, un alias (opcional) para el dominio, la pagina que se mostrará por defecto y la carpeta raíz del sitio web
 
