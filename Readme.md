@@ -460,13 +460,13 @@ Asigna direcciones IP:
 
 Para la WAN, pfSense obtendrá automáticamente una IP si está conectada a un router con DHCP.
 
-Para la LAN, asigna una IP estática (por ejemplo, 192.168.1.1).
+Para la LAN, asigna una IP estática, en este caso 10.20.30.100
 
 <h3>Configuración del adaptador puente</h3>
 
-El adaptador puente permite que pfSense se comunique directamente con la red física (por ejemplo, tu router de casa).
+El adaptador puente permite que pfSense se comunique directamente con la red física.
 
-En la configuración de la máquina virtual (o en el hardware físico), asegúrate de que el adaptador WAN esté en modo puente.
+En la configuración de la máquina virtual, asegúrate de que el adaptador WAN esté en modo puente.
 
 pfSense usará este adaptador para conectarse a Internet y gestionar el tráfico.
 
@@ -474,11 +474,11 @@ pfSense usará este adaptador para conectarse a Internet y gestionar el tráfico
 
 Conecta los dispositivos de tu red interna al adaptador LAN.
 
-Configura los dispositivos para obtener IP automáticamente (DHCP) o asigna IPs manualmente en el rango de la LAN (por ejemplo, 192.168.1.2 a 192.168.1.254).
+Configura los dispositivos para obtener IP automáticamente (DHCP) o asigna IPs manualmente en el rango de la LAN.
 
 Accede a la interfaz web de pfSense:
 
-Abre un navegador y ve a https://192.168.1.1 (la IP de la LAN).
+Abre un navegador y ve a https://10.20.30.100 (la IP de la LAN).
 
 Inicia sesión con las credenciales predeterminadas (usuario: admin, contraseña: pfsense).
 
