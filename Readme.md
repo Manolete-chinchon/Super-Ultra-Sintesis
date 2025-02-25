@@ -274,6 +274,24 @@ Resultado:
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/default%20named%20IPV4.JPG)
 
+<br>
+Con esto ya tenemos finalizada la configuración de nuestro servicio DNS, para comprobar que todo esta funcionando correctamente.
+con:
+para iniciar el servicio dns:
+
+        sudo systemctl start bind9
+<br>
+para visualizar errores y el estado del servicio
+
+        sudo systemctl status bind9
+
+<br>
+
+resultado:
+<br>
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Status%20Bind9.JPG)
+        
 </details>
 
 <details>
@@ -292,7 +310,7 @@ Apache es un servidor web de código abierto y gratuito que ha sido uno de los m
 
 Apache es utilizado para servir páginas web estáticas y dinámicas a los usuarios a través de internet o una intranet y además apache es compatible con una variedad de lenguajes de programación y tecnologías como PHP, Python, Perl, y más.
 
-Para obtener informaciójn de fuentes oficiales entre en este enlace: https://httpd.apache.org/
+Para obtener información de fuentes oficiales entre en este enlace: https://httpd.apache.org/
 
 ## Actualización del sistema
 
