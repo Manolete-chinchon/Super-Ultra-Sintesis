@@ -385,6 +385,10 @@ Si nuestra web no esta activada aplicamos el siguiente comando para activarla
     sudo a2ensite sitio-web.conf
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Activar%20sitio.png)
+<details>
+  <summary><b>PHP</b></summary>
+  <br>
+
 </details>
 
 <details>
