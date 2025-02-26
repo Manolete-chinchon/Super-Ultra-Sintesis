@@ -405,9 +405,6 @@ Si nuestra web no esta activada aplicamos el siguiente comando para activarla
     <br>
 PfSense es un sistema operativo basado en FreeBSD que funciona como firewall y router. Es muy utilizado para gestionar redes, filtrar tráfico, crear redes privadas virtuales (VPN), y mucho más. En este caso, lo instalaremos en una máquina virtual o física, configurando una red interna y un adaptador puente para permitir la comunicación entre dispositivos.
 
-Requisitos previos
-Hardware o máquina virtual: Puedes instalar pfSense en una computadora física o en una máquina virtual (usando VirtualBox, VMware, Proxmox, etc.).
-
 Imagen ISO de pfSense: Descárgala desde la página oficial de pfSense.
 
 Dos adaptadores de red:
@@ -416,15 +413,13 @@ Uno para la conexión a Internet (WAN).
 
 Otro para la red interna (LAN).
 
-Acceso a un gestor de virtualización (si usas máquina virtual).
-
 <h3>Preparación del entorno</h3>
 
 Si usas una máquina virtual, crea una nueva máquina con al menos:
 
 2 GB de RAM.
 
-3 CPU (recomendado 2 o más).
+3 CPU.
 
 16 GB de almacenamiento.
 
@@ -433,8 +428,6 @@ Dos adaptadores de red:
 Adaptador 1: Modo puente (para la WAN, conectada a Internet).
 
 Adaptador 2: Red interna (para la LAN).
-
-Monta la imagen ISO de pfSense en la máquina virtual o en un USB booteable si es una instalación física.
 
 <h3>Instalación de pfSense</h3>
 
