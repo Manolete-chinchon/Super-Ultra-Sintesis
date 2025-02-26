@@ -391,6 +391,7 @@ Si nuestra web no esta activada aplicamos el siguiente comando para activarla
 
 </details>
 
+</details>
 <details>
   <summary><h2>🔥 Firewall</h2></summary>
  
@@ -493,6 +494,5 @@ Verifica que los dispositivos en la LAN puedan conectarse a Internet.
 Prueba la conectividad entre dispositivos en la red interna.
 
 Asegúrate de que el firewall esté funcionando correctamente.
-</details>
 
 </details>
