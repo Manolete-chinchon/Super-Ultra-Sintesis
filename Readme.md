@@ -394,7 +394,12 @@ Si nuestra web no esta activada aplicamos el siguiente comando para activarla
 </details>
 <details>
   <summary><h2>🔥 Firewall</h2></summary>
- 
+
+  <details>
+  <summary><h3>Sophos</h3></summary>
+    <br>
+
+  </details>
   <details>
   <summary><h3>Competencia: PfSense</h3></summary>
     <br>
