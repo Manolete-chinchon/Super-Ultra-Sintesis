@@ -6,13 +6,13 @@
 <details>
   <summary><b>Idea del Proyecto</b></summary>
   <br>
-La idea principal es hacer una pagina web de ventas de zapatos al estilo nike y adidas, con un sistema de backups que genere copias de seguridad conectado a un servidor DNS y  además un DHCP que se encargará de asignar direcciones ip a los servidores, las copias seran distribuidas por un servidor Truenas donde será almacenado por los servidores Maestro-esclavo conectados por LDAP todo protegido por un firewall.
+La idea principal es hacer una pagina web de ventas de zapatos al estilo Nike y Adidas, con un sistema de backups que genere copias de seguridad conectado a un servidor DNS y  además un DHCP que se encargará de asignar direcciones ip a los servidores, las copias seran distribuidas por un servidor Truenas donde será almacenado por los servidores Maestro-esclavo conectados por LDAP todo protegido por un firewall.
 </details>
 
 <details>
   <summary><b>Objetivos</b></summary>
   <br>
-Queremos que la web tenga la estructura similar a nike o adidas, con carrrito, lista de deseos y opciones de crear cuenta e inicio y cerrar sesión. Otra cosas que queremos es que con Mysql guardamos la base de datos y estas se envien al servidor Truenas en forma de backups para que las distribuya a los servidores linux Maestro-Esclavo que lo almacenará. Las Ip seran distribuidas por el DHCP que se situará junto el firewall.
+Queremos que la web tenga la estructura similar a Nike o Adidas, con carrrito, lista de deseos y opciones de crear cuenta e inicio y cerrar sesión. Otra cosas que queremos es que con Mysql guardamos la base de datos y estas se envien al servidor Truenas en forma de backups para que las distribuya a los servidores linux Maestro-Esclavo que lo almacenará. Las Ip seran distribuidas por el DHCP que se situará junto el firewall.
   <br>
   <br>
 Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a explorar y poder manejar con fluidez un servidor Truenas. Por parte del protocolo LDAP no conocemos nada y por parte del servidor Truenas sabemos poco y tiene opciones muy interesantes por explorar.
@@ -175,7 +175,7 @@ Para ello utilizamos los comandos
 También instalamos el servicio Bind9 con el comando:
 **sudo apt install bind9**
 
-## configuración
+## Configuración
 
 Para el servidor necesitamos que la IP se mantenga fija para ello modificamos el archivo netplan ubicado en /etc/netplan/00-installer-config.yaml
 el resultado deberia tener la siguiente estructura:
@@ -254,7 +254,7 @@ si despues de lanzar el comando no devuelve nada significa que está bien config
 
 <br>
 
-## **lista de acceso y servidores forwarders**
+## **Lista de acceso y servidores forwarders**
 
 <br>
 
