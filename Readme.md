@@ -401,7 +401,7 @@ Si nuestra web no esta activada aplicamos el siguiente comando para activarla
 
   </details>
   <details>
-  <summary><h3>Competencia: PfSense</h3></summary>
+  <summary><h3>PfSense</h3></summary>
     <br>
 PfSense es un sistema operativo basado en FreeBSD que funciona como firewall y router. Es muy utilizado para gestionar redes, filtrar tráfico, crear redes privadas virtuales (VPN), y mucho más. En este caso, lo instalaremos en una máquina virtual o física, configurando una red interna y un adaptador puente para permitir la comunicación entre dispositivos.
 
