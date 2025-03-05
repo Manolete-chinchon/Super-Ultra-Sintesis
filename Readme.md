@@ -494,3 +494,9 @@ Prueba la conectividad entre dispositivos en la red interna.
 Asegúrate de que el firewall esté funcionando correctamente.
 
 </details>
+
+</details>
+<details>
+  <summary><h2>🖥️ Web</h2></summary>
+
+</details>
