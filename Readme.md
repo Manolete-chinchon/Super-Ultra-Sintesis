@@ -405,47 +405,28 @@ Si nuestra web no esta activada aplicamos el siguiente comando para activarla
     <br>
 PfSense es un sistema operativo basado en FreeBSD que funciona como firewall y router. Es muy utilizado para gestionar redes, filtrar tráfico, crear redes privadas virtuales (VPN), y mucho más. En este caso, lo instalaremos en una máquina virtual o física, configurando una red interna y un adaptador puente para permitir la comunicación entre dispositivos.
 
-Imagen ISO de pfSense: Descárgala desde la página oficial de pfSense.
-
-Dos adaptadores de red:
-
-Uno para la conexión a Internet (WAN).
-
-Otro para la red interna (LAN).
+Imagen ISO de pfSense: https://www.pfsense.org/download/
 
 <h3>Preparación del entorno</h3>
 
-Si usas una máquina virtual, crea una nueva máquina con al menos:
+Adaptador de red: Puente (Para la WAN)
 
-2 GB de RAM.
+Adaptador de red: Red interna (Para la LAN)
 
-3 CPU.
+Para instalar pfSense en la MV voy a utilizar la siguiente configuración:
 
-16 GB de almacenamiento.
+RAM: 3000
 
-Dos adaptadores de red:
+HDD:  20 GB
 
-Adaptador 1: Modo puente (para la WAN, conectada a Internet).
-
-Adaptador 2: Red interna (para la LAN).
+S.O.:  BSD
 
 <h3>Instalación de pfSense</h3>
 
-Inicia la máquina virtual o física desde la imagen ISO de pfSense.
+Para la instalacion de Pfsense realizaremos la configuración predeterminada. una vez terminamos la instalación apagamos la máquina virtual y retiramos la ISO. Una vez volvemos a encenderla, nos saldrá la siguiente interfaz.
 
-Selecciona la opción “Install pfSense” en el menú de arranque.
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/configuraci%C3%B3n%20adaptadores.png)
 
-Sigue los pasos de instalación:
-
-Acepta el acuerdo de licencia.
-
-Selecciona el disco duro donde se instalará pfSense.
-
-Elige el esquema de partición (por defecto es suficiente).
-
-Confirma la instalación.
-
-Una vez completada la instalación, reinicia la máquina y retira la imagen ISO.
 
 <h3>Configuración inicial de pfSense</h3>
 
