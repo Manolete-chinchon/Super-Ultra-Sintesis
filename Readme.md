@@ -407,7 +407,7 @@ PfSense es un sistema operativo basado en FreeBSD que funciona como firewall y r
 
 Imagen ISO de pfSense: https://www.pfsense.org/download/
 
-<h3>Preparación del entorno</h3>
+## Preparación del entorno
 
 Adaptador de red: Puente (Para la WAN)
 
@@ -415,7 +415,7 @@ Adaptador de red: Red interna (Para la LAN)
 
 Para instalar pfSense en la MV voy a utilizar la siguiente configuración:
 
-RAM: 3000
+RAM: 3000 GB
 
 HDD:  20 GB
 
@@ -428,7 +428,7 @@ Para la instalacion de Pfsense realizaremos la configuración predeterminada. un
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/configuraci%C3%B3n%20adaptadores.png)
 
 
-<h3>Configuración inicial de pfSense</h3>
+## Configuración inicial de pfSense
 
 Al reiniciar, pfSense te mostrará un menú de configuración.
 
