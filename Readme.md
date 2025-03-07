@@ -421,7 +421,7 @@ HDD:  20 GB
 
 S.O.:  BSD
 
-<h3>Instalación de pfSense</h3>
+## Instalación de pfSense
 Para la instalacion de Pfsense realizaremos la configuración predeterminada. Para ello seguiremos los pasos siguientes.
 
 Une vez que iniciamos la máquina nos saltara un aviso de derechos de copyright de netgate, aceptamos para continuar la instalación.
@@ -482,41 +482,9 @@ resultado:
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/configuraci%C3%B3n%20adaptadores.png)
 
 
-## Configuración inicial de pfSense
+## Configuración de pfSense
 
-Al reiniciar, pfSense te mostrará un menú de configuración.
 
-Configura las interfaces de red:
-
-pfSense detectará los adaptadores de red. Asigna:
-
-WAN: El adaptador conectado a Internet (modo puente).
-
-LAN: El adaptador para la red interna.
-
-Asigna direcciones IP:
-
-Para la WAN, pfSense obtendrá automáticamente una IP si está conectada a un router con DHCP.
-
-Para la LAN, asigna una IP estática, en este caso 10.20.30.100
-
-<h3>Configuración del adaptador puente</h3>
-
-El adaptador puente permite que pfSense se comunique directamente con la red física.
-
-En la configuración de la máquina virtual, asegúrate de que el adaptador WAN esté en modo puente.
-
-pfSense usará este adaptador para conectarse a Internet y gestionar el tráfico.
-
-<h3>Configuración de la red interna</h3>
-
-Conecta los dispositivos de tu red interna al adaptador LAN.
-
-Configura los dispositivos para obtener IP automáticamente (DHCP) o asigna IPs manualmente en el rango de la LAN.
-
-Accede a la interfaz web de pfSense:
-
-Abre un navegador y ve a https://10.20.30.100 (la IP de la LAN).
 
 Inicia sesión con las credenciales predeterminadas (usuario: admin, contraseña: pfsense).
 
