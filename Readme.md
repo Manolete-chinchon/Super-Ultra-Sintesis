@@ -470,7 +470,7 @@ Dejamos la configuración por defecto ya que son las recomendadas y continuamos.
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Partici%C3%B3n%20y%20fichero%20por%20defecto.PNG)
 
 
-Seleccionamos la instalación de la última version estable, con esto empezará el proceso de instalacion.
+Seleccionamos la instalación de la última version estable, con esto empezará el proceso de instalación.
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/%C3%BAltima%20versi%C3%B3n.PNG)
 
