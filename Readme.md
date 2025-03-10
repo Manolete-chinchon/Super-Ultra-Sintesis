@@ -484,7 +484,16 @@ resultado:
 
 ## Configuración de pfSense
 
+Una vez finalizada la instalación de Pfsense, abrimos una máquina cliente para comprobar que nos brinda la IP dentro del rango configurado y comprobamos que tenemos acceso a internet abriendo el navegado y entrando a una página cualquiera o haciendo un Ping.
 
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Ping%20y%20navegador.png)
+
+Una vez confirmado que todo esta correctamente, abrimos el navegador y escribimos la IP de la LAN para abrir el administrador y poder configurar el firewall.
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Intefaz%20Pfsense.png)
+
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Interfaz%20Interior.png)
 
 Inicia sesión con las credenciales predeterminadas (usuario: admin, contraseña: pfsense).
 
