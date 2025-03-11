@@ -426,67 +426,67 @@ Para la instalacion de Pfsense realizaremos la configuración predeterminada. Pa
 
 Une vez que iniciamos la máquina nos saltara un aviso de derechos de copyright de netgate, aceptamos para continuar la instalación.
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/derechos%20Copyright%20pfsense.PNG)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/derechos%20Copyright%20pfsense.PNG)
 
 
 Luego seleccionamos la opción de instalar Pfsense para continuar con la configuración.
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Opci%C3%B3n%20de%20instalaci%C3%B3n%20pfsense.PNG)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Opci%C3%B3n%20de%20instalaci%C3%B3n%20pfsense.PNG)
 
 
 Luego nos saltará un mensaje para que configuremos las opciones de red. En este caso nos pide que configuremos que interfaz de red será utilizada para la WAN, escogemos la em0.
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/WAN%20em0.PNG)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/WAN%20em0.PNG)
 
 
 Como la configuración de la WAN sera dada por DHCP dejamos todo por defecto y seguimos con la instalación.
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/continuamos%20con%20la%20instalacion.PNG)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/continuamos%20con%20la%20instalacion.PNG)
 
 
 Una vez terminamos la configuración de la wan, nos saldrá el siguiente mensaje que no hemos asignado la interfaz de LAN. seleccionamos la segunda interfaz disponible em1 para asignarla como LAN.
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/seleccionamos%20la%20lan.PNG)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/seleccionamos%20la%20lan.PNG)
 
 Una vez seleccionada la interfaz que utilizaremos como LAN, dentro de la configuración podemos escoger la ip que queramos asignarle al firewall y  también los rangos de IP que queremos que sean asignados a los equipos. Una vez finalizada la configuración que queramos o necesitemos asignar continuamos con la instalación. 
 
 la configuración que hemos hecho en este caso es la siguiente:
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Configuraci%C3%B3n%20IP%20LAN.PNG)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Configuraci%C3%B3n%20IP%20LAN.PNG)
 
 
 Confirmamos la configuración de interfaces que hemos realizado.
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Confirmaci%C3%B3n%20de%20interfaces.PNG)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Confirmaci%C3%B3n%20de%20interfaces.PNG)
 
 
 Despues de terminar con la configuración de interfaces y continuar nos saldrá un mensaje preguntando si queremos instalar la community edition de pfsense aceptamos y continuamos.
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Intalaci%C3%B3n%20community%20edition%20pfsense.PNG)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Intalaci%C3%B3n%20community%20edition%20pfsense.PNG)
 
 
 Dejamos la configuración por defecto ya que son las recomendadas y continuamos. Para los siguientes mensajes los aceptamos todos para realizar el particionado por defecto.
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Partici%C3%B3n%20y%20fichero%20por%20defecto.PNG)
+![](hhttps://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Partici%C3%B3n%20y%20fichero%20por%20defecto.PNG)
 
 
 Seleccionamos la instalación de la última version estable, con esto empezará el proceso de instalación.
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/%C3%BAltima%20versi%C3%B3n.PNG)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/%C3%BAltima%20versi%C3%B3n.PNG)
 
 
 Cuando finaliza el proceso de instalación deberemos reiniciar el sistema, despues apagamos la máquina, quitamos la ISO de Pfsense y volvemos a encender la máquina para poder iniciar correctamente. de lo contrario la máquina virtual nos volverá a lanzar al inicio del proceso de instalación.
 
 resultado:
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/configuraci%C3%B3n%20adaptadores.png)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/configuraci%C3%B3n%20adaptadores.png)
 
 
 ## Configuración de pfSense
 
 Una vez finalizada la instalación de Pfsense, abrimos una máquina cliente para comprobar que nos brinda la IP dentro del rango configurado y comprobamos que tenemos acceso a internet abriendo el navegado y entrando a una página cualquiera o haciendo un Ping.
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Ping%20y%20navegador.png)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Ping%20y%20navegador.png)
 
 Una vez confirmado que todo esta correctamente, abrimos el navegador y escribimos la IP de la LAN para abrir el administrador y poder configurar el firewall.
 
