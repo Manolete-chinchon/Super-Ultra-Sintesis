@@ -180,7 +180,7 @@ También instalamos el servicio Bind9 con el comando:
 Para el servidor necesitamos que la IP se mantenga fija para ello modificamos el archivo netplan ubicado en /etc/netplan/00-installer-config.yaml
 el resultado deberia tener la siguiente estructura:
 
-   ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/netplan.JPG)
+   ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/DNS/netplan.JPG)
 
 Para realizar los cambios del netplan aplicamos 
   
@@ -201,7 +201,7 @@ copiamos el archivo db.local cambiandole el nombre con el comando
 
 Ahora podemos editar el archivo, debería quedar algo parecido a lo siguiente:
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Zona%20directa%20dns.JPG)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/DNS/Zona%20directa%20dns.JPG)
 <br>
 
 comprobamos que el archivo esta correctamente editado usamos el comando:
@@ -219,7 +219,7 @@ Para la zona inversa copiamos el archivo db.127 y lo guardamos en el directorio 
       
 Ahora editamos el contenido del archivo y el resultado debería verse así:
 
-  ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Zona%20inversa%20DNS.JPG)
+  ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/DNS/Zona%20inversa%20DNS.JPG)
 
 Comprobamos que el archivo ha sido correctamente editado con:
 <br>
@@ -241,7 +241,7 @@ con el comando
 
 Ahora podemos editar el fichero named.conf.local y el resultado debería ser el siguiente:
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/named_conf_local.JPG)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/DNS/named_conf_local.JPG)
 
 <br>
 Comprobamos que la configuración es la correcta y no hayamos cometido errores con el comando:
@@ -262,7 +262,7 @@ Ahora editaremos el fichero **/etc/bind/named.conf.options** para crear una list
 
 El resultado del fichero deberia ser algo parecido al siguiente:
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Lista%20de%20acceso%20y%20forwaders.JPG)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/DNS/Lista%20de%20acceso%20y%20forwaders.JPG)
 
 <br>
 
@@ -272,7 +272,7 @@ La opción -4  nos sirve para forzar el uso de IPv4 siempre y evitar  mensajes d
 
 Resultado:
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/default%20named%20IPV4.JPG)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/DNS/default%20named%20IPV4.JPG)
 
 <br>
 Con esto ya tenemos finalizada la configuración de nuestro servicio DNS, para comprobar que todo esta funcionando correctamente.
@@ -290,7 +290,7 @@ para visualizar errores y el estado del servicio
 resultado:
 <br>
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Status%20Bind9.JPG)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/DNS/Status%20Bind9.JPG)
         
 </details>
 
@@ -326,7 +326,7 @@ Para ello utilizamos los comandos
 Para el servidor necesitamos que la IP se mantenga fija para ello modificamos el archivo netplan ubicado en /etc/netplan/00-installer-config.yaml
 el resultado deberia tener la siguiente estructura:
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/netplan%20apache.png)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/apache/netplan%20apache.png)
 
 Para realizar los cambios del netplan aplicamos 
   
@@ -351,7 +351,7 @@ Ahora que ya hemos iniciado comprobamos que funcione correctamente
 
 Todo deberia verse así
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/image.png)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/apache/image.png)
 
 ## Configuración de la web
 
@@ -361,7 +361,7 @@ Para empezar entramo en el archivo index.html que se encuaentra en el directorio
 
 Dentro del archivo editamos el codigo para que la web se vea como queramos
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Html%20juan.png)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/apache/Html%20juan.png)
 
 A continuacion entramos en los archivos de connfiguracion de la web
 
@@ -369,7 +369,7 @@ A continuacion entramos en los archivos de connfiguracion de la web
 
 Allí configuramos el nombre de dominio, un alias (opcional) para el dominio, la pagina que se mostrará por defecto y la carpeta raíz del sitio web
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Configuraci%C3%B3n%20web.png)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/apache/Configuraci%C3%B3n%20web.png)
 
 Luego miraremos los sitios que estan disponibles y luego los que estan activados, comprobamos si nuestra web está activada con los comandos
 
