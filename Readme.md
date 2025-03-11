@@ -490,12 +490,23 @@ Una vez finalizada la instalación de Pfsense, abrimos una máquina cliente para
 
 Una vez confirmado que todo esta correctamente, abrimos el navegador y escribimos la IP de la LAN para abrir el administrador y poder configurar el firewall.
 
+Inicia sesión con las credenciales predeterminadas (usuario: admin, contraseña: pfsense).
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Intefaz%20Pfsense.png)
 
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Interfaz%20Interior.png)
 
-Inicia sesión con las credenciales predeterminadas (usuario: admin, contraseña: pfsense).
+Una vez dentro nos desplazamos a la configuración general para definir el DNS y si quermos también el dominio
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Configuraciones_Generales.png)
+
+En la configuración del DHCP asignamos el rango de IP que se repartiran
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Configuraci%C3%B3n%20DHCP.png)
+
+Creamos una regla en el portforward para hacer un tunel de comunicación de internet hacia el servidor
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Port%20forward%20http.png)
 
 <h3>Pruebas y verificación</h3>
 
