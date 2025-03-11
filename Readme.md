@@ -124,9 +124,9 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
 <details>
   <summary><b>Asignación de Roles y Responsabilidades</b></summary>
  <br>
-  Àlex: Parte principal de la web, LDAP, apoyo al Truenas
+  Àlex: Parte principal de la web, LDAP, apoyo al Truenas, firewall
   
-  Roberto: LDAP, parte principal del Truenas, apoyo a la web, DNS
+  Roberto: LDAP, parte principal del Truenas, apoyo a la web, DNS, firewall
 </details>
 
 <details>
