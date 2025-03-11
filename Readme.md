@@ -378,13 +378,13 @@ Luego miraremos los sitios que estan disponibles y luego los que estan activados
 
     sudo ls /etc/apache2/sites-available
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Sitios%20activados.png)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/apache/Sitios%20activados.png)
 
 Si nuestra web no esta activada aplicamos el siguiente comando para activarla
 
     sudo a2ensite sitio-web.conf
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Activar%20sitio.png)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/apache/Activar%20sitio.png)
 <details>
   <summary><b>PHP</b></summary>
   <br>
