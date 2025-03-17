@@ -386,8 +386,18 @@ Si nuestra web no esta activada aplicamos el siguiente comando para activarla
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/apache/Activar%20sitio.png)
 <details>
-  <summary><b>PHP</b></summary>
+  <summary><h3>PHP</h3></summary>
   <br>
+PHP es un lenguaje de programación que se usa principalmente para crear páginas web dinámicas. Es decir, te permite generar contenido de manera interactiva, por ejemplo, mostrando datos que provienen de una base de datos o personalizando la página según el usuario.
+
+Cuando usas Apache junto con PHP en tu servidor, Apache se encarga de gestionar las solicitudes web, mientras que PHP se encarga de procesar la lógica del lado del servidor y generar el contenido dinámico.
+
+## Instalación PHP
+El primer paso es hacer la instalación del php con el siguiente comando:
+
+    sudo apt install php libapache2-mod-php
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/apache/PHP/Php%20instalaci%C3%B3n.png)
+
 
 </details>
 
