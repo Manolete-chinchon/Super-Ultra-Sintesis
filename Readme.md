@@ -575,4 +575,5 @@ Asegúrate de que el firewall esté funcionando correctamente.
 <details>
   <summary><h2>🖥️ Web</h2></summary>
 
+
 </details>
