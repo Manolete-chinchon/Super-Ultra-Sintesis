@@ -561,7 +561,10 @@ Prueba la conectividad entre dispositivos en la red interna.
 Asegúrate de que el firewall esté funcionando correctamente.
 
 </details>
+<details>
+  <summary><h3>Conexión OpenVPN</h3></summary>
 
+</details>
 </details>
 
 <details>
