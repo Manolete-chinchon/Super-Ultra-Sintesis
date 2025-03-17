@@ -528,19 +528,19 @@ Configuramos la regla para ya tenerlo listo y poder usar el VPN correctamente
 
 En un dispositivo movil, por ejemplo, descargamos una aplicación cualquiera para el VPN, cargamos el archivo VPN y se nos guarada la configuración
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/OpenVPN%20interfaz%20movil.jpg)
+<img src="https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/OpenVPN%20interfaz%20movil.jpg" width="500" height="800" />
 
 Le damos a conectar y comenzara a salir un monton de texto hasta que nos diga succes
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Conexi%C3%B3n%20VPN.jpg)
+<img src="https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Conexi%C3%B3n%20VPN.jpg" width="500" height="800" />
 
 Una vez conectados podemos comprobar que podemos entrar a la pagina de configuración de pfsense
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Acceso%20pfsense%20movil.jpg)
+<img src="https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Acceso%20pfsense%20movil.jpg" width="500" height="800" />
 
 Tambien al dominio apache situado en la misma red interna
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/VPN_WEB.jpg)
+<img src="https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/VPN_WEB.jpg" width="500" height="800" />
 
 <h3>Pruebas y verificación</h3>
 
