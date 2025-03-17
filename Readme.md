@@ -508,6 +508,8 @@ Creamos una regla en el portforward para hacer un tunel de comunicación de inte
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Port%20forward%20http.png)
 
+## OpenVPN
+
 Ahora instalamos las dependencias necesarias para crear nuestro VPN
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Dependencias%20OpenVPN.png)
@@ -520,7 +522,25 @@ Creamos un usuario especifico para usar en el OpenVPN, cuando ya este creado cre
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/CertificadosVPN_y_Usuarios.png)
 
+Configuramos la regla para ya tenerlo listo y poder usar el VPN correctamente
 
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/OpenVPN%20REGLA.png)
+
+En un dispositivo movil, por ejemplo, descargamos una aplicación cualquiera para el VPN, cargamos el archivo VPN y se nos guarada la configuración
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/OpenVPN%20interfaz%20movil.jpg)
+
+Le damos a conectar y comenzara a salir un monton de texto hasta que nos diga succes
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Conexi%C3%B3n%20VPN.jpg)
+
+Una vez conectados podemos comprobar que podemos entrar a la pagina de configuración de pfsense
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Acceso%20pfsense%20movil.jpg)
+
+Tambien al dominio apache situado en la misma red interna
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/VPN_WEB.jpg)
 
 <h3>Pruebas y verificación</h3>
 
