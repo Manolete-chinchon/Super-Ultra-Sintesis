@@ -542,6 +542,16 @@ Tambien al dominio apache situado en la misma red interna
 
 <img src="https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/VPN_WEB.jpg" width="500" height="800" />
 
+## SSH
+
+Creamos la regla para habilitar el ssh y permitir las conexiones hacia el servidor
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Port%20forward%20SSH.png)
+
+Una vez creado comprobamos las conexiones, si nos conectamos correctamente habremos realizado con éxito la configuración del ssh
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/comprobaci%C3%B3n%20ssh.png)
+
 <h3>Pruebas y verificación</h3>
 
 Verifica que los dispositivos en la LAN puedan conectarse a Internet.
