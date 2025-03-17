@@ -508,6 +508,20 @@ Creamos una regla en el portforward para hacer un tunel de comunicación de inte
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Port%20forward%20http.png)
 
+Ahora instalamos las dependencias necesarias para crear nuestro VPN
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Dependencias%20OpenVPN.png)
+
+Generamos las certificaciones para el buen uso
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/OpenVPN_CA.png)
+
+Creamos un usuario especifico para usar en el OpenVPN, cuando ya este creado creamos unas certificaciones especificas para este usuario
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/CertificadosVPN_y_Usuarios.png)
+
+
+
 <h3>Pruebas y verificación</h3>
 
 Verifica que los dispositivos en la LAN puedan conectarse a Internet.
