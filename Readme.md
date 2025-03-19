@@ -404,7 +404,7 @@ En momentos posteriores la instalación creamos un archivo php, le ponemos un co
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/apache/PHP/Archivo%20php.png)
 
 Una vez creado el archivo vamos a un cliente a la web que esté conectado, ponemos la ip del servidor en el buscador y nos deberia llevar a la web apache generada anteriormente.
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/apache/PHP/comprobacion%20php.png)
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/apache/PHP/Comprobacion%20php.png)
 </details>
 
 </details>
