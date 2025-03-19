@@ -573,7 +573,7 @@ Asegúrate de que el firewall esté funcionando correctamente.
 
 </details>
 <details>
-  <summary><b>Conexión OpenVPN</b></summary>
+  <summary><b>Conexión OpenVPN (extra)</b></summary>
 <br>
   
 </details>
