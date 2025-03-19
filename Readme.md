@@ -575,7 +575,8 @@ Asegúrate de que el firewall esté funcionando correctamente.
 <details>
   <summary><b>Conexión OpenVPN (extra)</b></summary>
 <br>
-  
+Este extra trata sobre una conexión de dos maquinas virtuales de dos dispositivos diferentes, para eso necesitamos un router, tres cables ethernet, un cable de corriente y dos PCs con las maquinas virtuales, el firewall pfsense y el cliente windows 10.
+Lo primero que hay que hacer es conectar los dos PCs al mismo router para que este todo en la misma red, luego colocar el adaptador de red en red nat de las dos maquinas e iniciarlas. En el firewall pasamos el archivo de vpn de android al cliente ubuntu por los medios que guste, en el windows con cualquier aplicación cargamos el archivo y ya deberia estar en la misma red del firewall.
 </details>
 </details>
 
