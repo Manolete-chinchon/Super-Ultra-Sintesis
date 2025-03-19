@@ -412,11 +412,6 @@ Una vez creado el archivo vamos a un cliente a la web que esté conectado, ponem
   <summary><h2>🔥 Firewall</h2></summary>
 
   <details>
-  <summary><b>Sophos</b></summary>
-    <br>
-
-  </details>
-  <details>
   <summary><b>PfSense</b></summary>
     <br>
 PfSense es un sistema operativo basado en FreeBSD que funciona como firewall y router. Es muy utilizado para gestionar redes, filtrar tráfico, crear redes privadas virtuales (VPN), y mucho más. En este caso, lo instalaremos en una máquina virtual o física, configurando una red interna y un adaptador puente para permitir la comunicación entre dispositivos.
@@ -579,7 +574,8 @@ Asegúrate de que el firewall esté funcionando correctamente.
 </details>
 <details>
   <summary><b>Conexión OpenVPN</b></summary>
-
+<br>
+  
 </details>
 </details>
 
