@@ -110,14 +110,14 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
 <details>
   <summary><b>Sistemas Operativos a Utilizar</b></summary>
   
-| Servicio | Sistema Operativo                | RAM  | Almacenamiento | Procesadores | Ip           |
-| -------- | -------------------------------- | ---- | -------------- | ------------ | ------------ |
-| Host     | Win11_22H2_Spanish_x64v2         | 16 GB| 722 GB         | 8            | ?            |
-| DNS      | ubuntu-22.04.2-live-server-amd64 | 2 GB | 20 GB          | 2            | ?            |
-| DHCP     | ubuntu-22.04.2-live-server-amd64 | 2 GB | 20 GB          | 2            | ?            |
-| Apache   | ubuntu-22.04.2-live-server-amd64 | 2 GB | 16 GB          | 2            | ?            |
-| Firewall | netgate-installer-v1.0-RC-amd64-20240919-1435.iso                             | ? GB | ? GB           | ?            | ?            |
-| Truenas  | TrueNAS-13.0-U6.3                | 8 GB | 20 GB x2       | 2            | ?            |
+| Servicio | Sistema Operativo                             | RAM  | Almacenamiento | Procesadores | Ip           |
+| -------- | --------------------------------------------- | ---- | -------------- | ------------ | ------------ |
+| Host     | Win11_22H2_Spanish_x64v2                      | 16 GB| 722 GB         | 8            | ?            |
+| DNS      | ubuntu-22.04.2-live-server-amd64              | 2 GB | 20 GB          | 2            | ?            |
+| DHCP     | ubuntu-22.04.2-live-server-amd64              | 2 GB | 20 GB          | 2            | ?            |
+| Apache   | ubuntu-22.04.2-live-server-amd64              | 2 GB | 16 GB          | 2            | ?            |
+| Firewall | netgate-installer-v1.0-RC-amd64-20240919-1435 | 3 GB | 20 GB          | 2            | ?            |
+| Truenas  | TrueNAS-13.0-U6.3                             | 8 GB | 20 GB x2       | 2            | ?            |
 
 </details>
 
@@ -587,6 +587,10 @@ Lo primero que hay que hacer es conectar los dos PCs al mismo router para que es
 
 <details>
   <summary><h2>🖥️ Web</h2></summary>
-
+<summary><b>Mapa del sitio</b></summary>
+<br>
+  En este mapa se permiten ver las conexiones que hay entre paginas.
+  ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/web/Mapa%20del%20sitio.png)
+</details>
 
 </details>
