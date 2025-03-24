@@ -588,12 +588,38 @@ Lo primero que hay que hacer es conectar los dos PCs al mismo router para que es
 <details>
   <summary><h2>🖥️ Web</h2></summary>
   <details>
-<summary><b>Mapa del sitio</b></summary>
-<br>
-  En este mapa se permiten ver las conexiones que hay entre paginas.
+<summary><b>Estructura de la web</b></summary>
 <br>
     
+## Mapa del sitio
+
+  En este mapa se permiten ver las conexiones que hay entre paginas.
+
+    <br>
+    
   ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/web/Mapa%20del%20sitio.png)
+
+## Mockups
+
+Este es el mockup de la pagina de inicio
+
+  ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/web/Mokap%20inicio.png)
+
+Este es el mockup de la pagina de compra
+
+  ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/web/Mokup%20compra.png)
+
+Este es el mockup de la pagina del carrito
+
+  ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/web/Mokap%20carrito.png)
+
+Este es el mockup de la pagina del login
+
+  ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/web/Mokap%20login.png)
+
+Este es el mockup de la pagina del registro
+
+  ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/web/Mokap%20register.png)
 </details>
 
 </details>
