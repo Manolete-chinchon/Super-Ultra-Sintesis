@@ -591,7 +591,8 @@ Lo primero que hay que hacer es conectar los dos PCs al mismo router para que es
 <summary><b>Mapa del sitio</b></summary>
 <br>
   En este mapa se permiten ver las conexiones que hay entre paginas.
-
+<br>
+    
   ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/web/Mapa%20del%20sitio.png)
 </details>
 
