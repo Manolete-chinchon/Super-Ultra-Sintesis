@@ -583,6 +583,20 @@ Lo primero que hay que hacer es conectar los dos PCs al mismo router para que es
 <details>
   <summary><h2>🔐 TrueNas</h2></summary>
 
+  ## Introducción
+TrueNAS es un sistema operativo de código abierto que permite convertir un ordenador o servidor en un potente dispositivo de almacenamiento en red (NAS). Está basado en FreeBSD o Linux y es muy utilizado en entornos tanto domésticos como empresariales para gestionar grandes volúmenes de datos.
+
+Su principal función es ofrecer un espacio centralizado para almacenar, compartir y proteger archivos dentro de una red, utilizando protocolos como SMB (Windows), NFS (Linux/Unix) o iSCSI (almacenamiento en bloque).
+
+En el ámbito de los backups, TrueNAS es una herramienta clave porque permite:
+
+Consolidar las copias de seguridad de múltiples dispositivos y servidores en un único sistema.
+
+Proteger la integridad de los datos mediante el sistema de archivos ZFS, que incluye funciones como la detección y corrección de errores, snapshots y replicación.
+
+Automatizar tareas de respaldo mediante herramientas internas o integraciones con software de backup de terceros.
+
+Facilitar la recuperación rápida de archivos o sistemas completos en caso de pérdida de datos o fallos de hardware.
 </details>
 
 <details>
