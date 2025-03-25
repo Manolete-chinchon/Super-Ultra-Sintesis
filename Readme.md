@@ -642,3 +642,9 @@ Este es el mockup de la pagina del registro
 </details>
 
 </details>
+
+<details>
+  <summary><h2>👤 Replicación Master-slave con LDAP</h2></summary>
+
+
+</details>
