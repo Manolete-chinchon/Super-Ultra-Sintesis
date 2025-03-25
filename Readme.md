@@ -297,7 +297,7 @@ resultado:
 <details>
   <summary><b>DHCP</b></summary>
  <br>
-El DHCP (Protocolo de Configuración Dinámica de Host, por sus siglas en inglés) es un protocolo de red utilizado para asignar direcciones IP y otros parámetros de configuración de red a los dispositivos (como computadoras, impresoras o smartphones) de forma automática. Esto simplifica la gestión de redes, ya que no es necesario configurar manualmente cada dispositivo.
+El DHCP es un protocolo de red utilizado para asignar direcciones IP y otros parámetros de configuración de red a los dispositivos (como computadoras, impresoras o smartphones) de forma automática. Esto simplifica la gestión de redes, ya que no es necesario configurar manualmente cada dispositivo.
 
 Cuando un dispositivo se conecta a la red, envía una solicitud DHCP para obtener una dirección IP. El servidor DHCP responde asignando una IP disponible del rango de direcciones previamente configurado y proporciona otros parámetros importantes como la puerta de enlace predeterminada, los servidores DNS, y el tiempo de validez de la IP (el "lease").
 
