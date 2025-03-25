@@ -297,11 +297,13 @@ resultado:
 <details>
   <summary><b>DHCP</b></summary>
  <br>
-El DHCP es un protocolo de red utilizado para asignar direcciones IP y otros parámetros de configuración de red a los dispositivos (como computadoras, impresoras o smartphones) de forma automática. Esto simplifica la gestión de redes, ya que no es necesario configurar manualmente cada dispositivo.
+El DHCP es un protocolo de red utilizado para asignar direcciones IP y otros parámetros de configuración de red a los dispositivos de forma automática. Esto simplifica la gestión de redes, ya que no es necesario configurar manualmente cada dispositivo.
 
-Cuando un dispositivo se conecta a la red, envía una solicitud DHCP para obtener una dirección IP. El servidor DHCP responde asignando una IP disponible del rango de direcciones previamente configurado y proporciona otros parámetros importantes como la puerta de enlace predeterminada, los servidores DNS, y el tiempo de validez de la IP (el "lease").
+Cuando un dispositivo se conecta a la red, envía una solicitud DHCP para obtener una dirección IP. El servidor DHCP responde asignando una IP disponible del rango de direcciones previamente configurado y proporciona otros parámetros importantes como la puerta de enlace predeterminada, los servidores DNS, y el tiempo de validez de la IP.
 
 Este proceso ayuda a evitar conflictos de direcciones IP y facilita la administración de redes grandes, eliminando la necesidad de configuraciones manuales en cada dispositivo.
+
+La implementación y uso del DHCP en nuestro proyecto se explicará en el apartado de pfsense en firewall porque en nuestro caso estas dos cosas se harán en conjunto
 </details>
 
 </details>
