@@ -603,6 +603,23 @@ Proteger la integridad de los datos mediante el sistema de archivos ZFS, que inc
 Automatizar tareas de respaldo mediante herramientas internas o integraciones con software de backup de terceros.
 
 Facilitar la recuperación rápida de archivos o sistemas completos en caso de pérdida de datos o fallos de hardware.
+
+## Instalación
+
+Al momento de iniciar la máquina virtual nos aparecerá una pantalla en la cual elegiremos la primera opción para comenzar con la instalación.
+
+  ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/truenas%20instalar.png)
+
+Después nos saldrá la siguiente opción donde escogemos en que unidad de almacenaciento se instalará el sistema de truenas, elegimos ada0. En este caso, como se puede observar solo tenemos una unidad (posteriormente de la instalación añadimos otras tres para realizar un raid 5) pero incluso si tuviésemos más, se seguiría escogiendo esta opción para instalar el sistema. 
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/truenas%20seleccion%20disco.png)
+
+Para el tipo de arranque escogeremos la recomendado por la guía de instalación
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/truenas%20arranque.png)
+
+## Configuración 
+    
 </details>
 
 <details>
