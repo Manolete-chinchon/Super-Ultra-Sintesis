@@ -618,8 +618,39 @@ Para el tipo de arranque escogeremos la recomendado por la guía de instalación
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/truenas%20arranque.png)
 
+Finalmente, después de terminar con la instalación, el sistema se reiniciara y nos mostrará la siguiente pantalla con una IP, esta IP la pondremos en el navegador de una máquina cliente para acceder a la interfaz gráfica donde comenzaremos con la configuración.
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/Interfaz%20de%20servidor.png)
+
 ## Configuración 
-    
+
+Para comenzar con la configuración vamos a la interfaz gráfica, para ello, ponemos la IP que nos da el servidor en el navegador de un equipo cliente.
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/truenas%20inicio.png)
+
+
+Primero crearemos el Pool , donde crearemos un raid 5 para proteger nuestros datos y unidades de almacenamiento, y luego crearemos varios datasets (carpetas) que es donde estarán destinadas los backups de los respctivos datos que escogeremos.
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/Pool%20raid5.png)
+
+
+Ahora vamos al apartado de account manager/usuario y creamos un nuevo usuario que se encargará de realizar y gestionar los backups.
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/usuario%20Backup.png)
+
+
+A continuación, activamos los servicios ssh, rsync, smb y ftp que nos ayudarán para poder realizar y gestionar los backups.
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/servicios%20activos.png)
+
+
+Luego, vamos al apartado sharing/smb. Aquí es donde creamos el acceso desde un equipo cliente dentro de la red a los datasets que creamos en el pool.
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/SMB.png)
+
+
+
+
 </details>
 
 <details>
