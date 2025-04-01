@@ -629,7 +629,7 @@ Para comenzar con la configuración vamos a la interfaz gráfica, para ello, pon
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/truenas%20inicio.png)
 
 
-Primero crearemos el Pool , donde crearemos un raid 5 para proteger nuestros datos y unidades de almacenamiento, y luego crearemos varios datasets (carpetas) que es donde estarán destinadas los backups de los respctivos datos que escogeremos.
+Primero crearemos el Pool , donde formaremos un raid 5 para proteger nuestros datos y unidades de almacenamiento, y luego generaremos varios datasets (carpetas) que es donde estarán destinadas los backups de los respctivos datos que escogeremos.
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/Pool%20raid5.png)
 
