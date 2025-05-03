@@ -641,6 +641,14 @@ Ahora vamos al apartado de account manager/usuario y creamos un nuevo usuario qu
 
 A continuación, activamos los servicios ssh, rsync, smb y ftp que nos ayudarán para poder realizar y gestionar los backups.
 
+SSH: Permite acceder y administrar remotamente otro sistema de forma segura mediante cifrado. Puedes conectarte a servidores remotos para ejecutar scripts de respaldo o transferir archivos de forma segura por ejemplo, rsync sobre SSH.
+
+Rsync: Herramienta para sincronizar y transferir archivos entre sistemas, con la ventaja de copiar solo los cambios. Ideal para hacer copias de seguridad incrementales, eficientes y rápidas entre directorios locales o remotos muchas veces se usa junto con SSH.
+
+SMB: Protocolo para compartir archivos e impresoras en redes, especialmente en entornos Windows. Permite acceder a carpetas compartidas en red para copiar o almacenar respaldos desde o hacia sistemas Windows o compatibles.
+
+FTP: Protocolo para transferir archivos entre sistemas a través de una red. Se puede usar para subir o descargar archivos de respaldo desde un servidor FTP.
+
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/servicios%20activos.png)
 
 
