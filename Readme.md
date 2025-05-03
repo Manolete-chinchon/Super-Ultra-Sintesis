@@ -694,5 +694,5 @@ Este es el mockup de la pagina del registro
 <details>
   <summary><h2>👤 Replicación Master-slave con LDAP</h2></summary>
 <br>
-
+Lo primero para la creación de una replicación Maestro-esclavo entre dos servidores LDAP es tener los servidores instalados en si, simplemente eso, para ello tenemos una guia que se encontrara en los archivos del principio, está guia esta hecha y comprobada pro un excelente alumno apuesto y galan de SMX2 llamado Àlex Domínguez que ha tenido la amabilidad de compartirnos esta guia.
 </details>
