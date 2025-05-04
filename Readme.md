@@ -659,6 +659,18 @@ Luego, vamos al apartado sharing/smb. Aquí es donde creamos el acceso desde un 
 
 
 
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/creaci%C3%B3n%20script.png)
+
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/envio%20backup.png)
+
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/envio%20backup.png)
+
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/Comprobar%20backups.png)
+
+
 </details>
 
 <details>
