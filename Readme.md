@@ -714,5 +714,141 @@ Este es el mockup de la pagina del registro
 <details>
   <summary><h2>👤 Replicación Master-slave con LDAP</h2></summary>
 <br>
-Lo primero para la creación de una replicación Maestro-esclavo entre dos servidores LDAP es tener los servidores instalados en si, simplemente eso, para ello tenemos una guia que se encontrara en los archivos del principio, está guia esta hecha y comprobada pero un excelente alumno apuesto y galan de SMX2 llamado Àlex Domínguez que ha tenido la amabilidad de compartirnos esta guia.
+Lo primero para la creación de una replicación Maestro-esclavo entre dos servidores LDAP es tener los servidores instalados en si, simplemente eso, para ello tenemos una guia que se encontrara en los archivos del principio, está guia esta hecha y comprobada pero un excelente alumno apuesto y galán de SMX2 llamado Àlex Domínguez que ha tenido la amabilidad de compartirnos esta guia.
+<br>
+Una vez tengamos los dos servidores creados con su IP cada uno y algo que los diferencie de maestro y esclavo podemos empezar la creación de los archivo ldif para la configuración de cada máquina.
+La configuraciones de LDAP se hacen con unos archivos con una extensión ldif, que es un formato de texto estándar para representar y intercambiar datos de directorio LDAP. Los archivos .ldif se utilizan para exportar información de directorio y para importar datos en servidores LDAP, permitiendo la transferencia de datos entre diferentes servidores de directorios o para ser usados por herramientas como ldapadd.
+<br>
+<br>
+  
+## Maestro
+Ahora si empezamos, dentro del servidor maestro necesitamos un usuario que gestione la replicación, para ello creamos el archivo replicator.ldif (los nombres de los archivos no tienen que ser exactamente los mismos estos son un ejemplo) y dentro del archivo ponemos la siguiente información
+
+    sudo nano replicator.ldif
+  <br>
+  
+    dn: cn=replicator,dc=example,dc=com
+    objectClass: simpleSecurityObject
+    objectClass: organizationalRole
+    cn: replicator
+    description: Replication user
+    userPassword: {CRYPT}x
+
+En dc=example y dc=com ponemos el dominio que creamos junto a los servidores y en userPassword: la contraseña, preferiblemente encriptada (en la guia se explica como encriptar la contraseña)
+Ahora que ya esta el archivo creado añadimos la entrada
+
+    ldapadd -x -ZZ ldap://ip-del-servidor-maestro -D cn=admin,dc=example,dc=com -W -f replicator.ldif
+
+Después de crear el usuario nos daremos cuenta de que es como uno cualquiera, para eso cambiaremos las reglas del ACL y le damos los privilegios necesarios, creamos el archivo replicator-acl-limits.ldif y ponemos la siguiente información.
+
+    sudo nano replicator-acl-limits.ldif
+  <br>
+  
+    dn: olcDatabase={1}mdb,cn=config
+    changetype: modify
+    add: olcAccess
+    olcAccess: {0}to *
+      by dn.exact="cn=replicator,dc=example,dc=com" read
+      by * break
+    -
+    add: olcLimits
+    olcLimits: dn.exact="cn=replicator,dc=example,dc=com"
+      time.soft=unlimited time.hard=unlimited
+      size.soft=unlimited size.hard=unlimited
+
+Añadimos la entrada a la base de datos.
+
+    sudo ldapmodify -Q -Y EXTERNAL -H ldapi:/// -f replicator-acl-limits.ldif
+
+Con el usuario ya creado tenemos que agregar el syncprov para crear la replicación en el maestro.
+Creamos el archivo provider_simple_sync.ldif y escribimos las lineas con el texto.
+
+    sudo nano provider_simple_sync.ldif
+  <br>
+  
+    # Add indexes to the frontend db.
+    dn: olcDatabase={1}mdb,cn=config
+    changetype: modify
+    add: olcDbIndex
+    olcDbIndex: entryCSN eq
+    -
+    add: olcDbIndex
+    olcDbIndex: entryUUID eq
+
+    #Load the syncprov module.
+    dn: cn=module{0},cn=config
+    changetype: modify
+    add: olcModuleLoad
+    olcModuleLoad: syncprov
+
+    # syncrepl Provider for primary db
+    dn: olcOverlay=syncprov,olcDatabase={1}mdb,cn=config
+    changetype: add
+    objectClass: olcOverlayConfig
+    objectClass: olcSyncProvConfig
+    olcOverlay: syncprov
+    olcSpCheckpoint: 100 10
+    olcSpSessionLog: 100
+Guardamos y añadimos la entrada a la base de datos
+
+    sudo ldapadd -Q -Y EXTERNAL -H ldapi:/// -f provider_simple_sync.ldif
+
+Con esto y un bizcocho acabamos la configuración del servidor maestro, ahora empezaremos con la configuración del esclavo, es más corta pero más propensa a errores.
+<br>
+
+## Esclavo 
+Dentro del servidor esclavo creamos un archivo para la creación de la replicación esclavo, dentro del archivo estará toda la información para asignar que el esclavo busque al maestro, para eso creamos el archivo consumer_simple_sync.ldif y ponemos la siguiente información
+
+    dn: cn=module{0},cn=config
+    changetype: modify
+    add: olcModuleLoad
+    olcModuleLoad: syncprov
+
+    dn: olcDatabase={1}mdb,cn=config
+    changetype: modify
+    add: olcDbIndex
+    olcDbIndex: entryUUID eq
+    -
+    add: olcSyncrepl
+    olcSyncrepl: rid=0
+      provider=ldap://ldap01.example.com
+      bindmethod=simple
+      binddn="cn=replicator,dc=example,dc=com" credentials=<secret>
+      searchbase="dc=example,dc=com"
+      schemachecking=on
+      type=refreshAndPersist retry="60 +"
+      starttls=critical tls_reqcert=demand
+    -
+    add: olcUpdateRef
+    olcUpdateRef: ldap://ldap01.example.com
+
+rid: Digito único de 3 números
+
+provider: IP del maestro
+
+binddn: DN del usuario del replicador
+
+credentials: Contraseña del usuario
+
+searchbase: Sufijo de la base de datos que se va a replicar
+
+olcUpdateRef: IP del maestro
+
+rid: Digito de 3 números
+<br>
+Guardamos y añadimos la entrada, después de esto ya habriamos creado la replicación maestro esclavo de LDAP, así que procederemoos a las comprobaciones
+
+## Comprobaciones
+
+En ambos servidores hay que escribir el siguiente comando
+
+    ldapsearch -z1 -LLL -x -s base -b dc=example,dc=com contextCSN
+
+Al ejecutar este comando nos dara un número, este número se tiene que mostrar idéntico en los dos servidores, si son el mismo es que los servidores estan sincronizados si no algo esta mal.
+Si en el esclavo no da número es que no encuentra el servidor maestro pero si da un numero diferente es que ni siquiera lo busca
+<br>
+Si estan sincronizados ahora toca ir a un cliente y comprobar los usuarios, para ello iniciamos el navegador y entramos al LAM (LDAP Account Manager) e iniciamos los dos servidores.
+Ahora si creamos un usuario en el maestro este se deberia de crear en el esclavo, si es así significa que la creación de la replicación maestro esclavo ha sido un éxito.
+<br>
+Si las comprobaciones funcionan correctamente solo queda abrir una botella de champan y celebrarlo.
 </details>
