@@ -836,6 +836,7 @@ olcUpdateRef: IP del maestro
 
 rid: Digito de 3 números
 <br>
+
 Guardamos y añadimos la entrada, después de esto ya habriamos creado la replicación maestro esclavo de LDAP, así que procederemoos a las comprobaciones
 
 ## Comprobaciones
