@@ -569,13 +569,6 @@ Una vez creado comprobamos las conexiones, si nos conectamos correctamente habre
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/comprobaci%C3%B3n%20ssh.png)
 
-<h3>Pruebas y verificación</h3>
-
-Verifica que los dispositivos en la LAN puedan conectarse a Internet.
-
-Prueba la conectividad entre dispositivos en la red interna.
-
-Asegúrate de que el firewall esté funcionando correctamente.
 
 </details>
 <details>
