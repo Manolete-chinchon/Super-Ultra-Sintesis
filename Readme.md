@@ -860,3 +860,4 @@ Si las comprobaciones funcionan correctamente solo queda abrir una botella de ch
 <details>
   <summary><h2>🥵​ Conclusiones</h2></summary>
 <br>
+</details>
