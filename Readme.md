@@ -24,10 +24,15 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
    Los módulos del ciclo que estarán presente en nuestro proyecto serán principalmente:
   <br>
   <br>
-  
    Aplicaciones web: Este modulo se implementará para la creación y posterior edición de la web, html y css por parte del contenido y diseño, y php y mysql para la creación y la conexión con una base de datos.
-   Seguridad informática: Este modulo se implementará para el uso del servidor Truenas, se encargará de la creación y distribución de los backups a los servidores linux master-slave, además de la implementación de un sistema de seguridad mediante firewall por sophos que tambien hará la función de DHCP.
-  Sistemas operativos en red: Este modulo se implementará para la creación y posterior implementación de un servidor apache para el alojamiento de la web y para la comunicación LDAP para los servidores maestro esclavo que conectarán con el TrueNas
+  <br>
+  <br>
+   Seguridad informática: Este modulo se implementará para el uso del servidor Truenas, se encargará de la creación y distribución de los backups a los servidores linux master-slave, además de la implementación de un sistema de seguridad mediante firewall por pfsense que tambien hará la función de DHCP.
+  <br>
+  <br>
+  Sistemas operativos en red: Este modulo se implementará para la creación y posterior implementación de un servidor apache para el alojamiento de la web y para la comunicación LDAP para los servidores maestro esclavo que conectarán con el TrueNas.
+  <br>
+  <br>
    Servicios en red: Este modulo se implementará para la creación del servidor DNS.
 </details>
 
@@ -59,8 +64,8 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
 <details>
   <summary><b>Objetivos y Funcionalidades</b></summary>
   <br>
-  Replicación de servidor OpenLDAP maestro-esclavo que copia la base de datos de una aplicación web 
-  que mejora la seguridad para proteger las copias  
+  Replicación de servidores OpenLDAP maestro-esclavo que copia la base de datos de una aplicación web 
+  que mejora la seguridad para proteger las copias. 
  </details> 
  
 <details>
@@ -102,7 +107,7 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
   
   **DHCP**: Este protocolo se encarga de asignar de manera dinámica y automática una dirección IP, ya sea una dirección IP privada desde el router hacia los equipos de la red local, o también una IP pública por parte de un operador que utilice este tipo de protocolo para el establecimiento de la conexión.
   
-  **LDAP**: Se trata de un conjunto de protocolos de licencia abierta que son utilizados para acceder a la información que está almacenada de forma centralizada en una red. Este protocolo se utiliza a nivel de aplicación para acceder a los servicios de directorio remoto
+  **LDAP**: Se trata de un conjunto de protocolos de licencia abierta que son utilizados para acceder a la información que está almacenada de forma centralizada en una red. Este protocolo se utiliza a nivel de aplicación para acceder a los servicios de directorio remoto.
   
   **APACHE**: La funcionalidad principal de este servicio web es servir a los usuarios todos los ficheros necesarios para visualizar la web. Las solicitudes de los usuarios se hacen normalmente mediante un navegador (Chrome, Firefox... etc.). Por ejemplo, cuando un usuario escribe en su navegador página.com, esa petición llegará a nuestro servidor Apache que mediante el protocolo HTTP este se encargará de facilitarle los textos, imágenes, estilos, etc. que conforman la portada de nuestra web de forma segura.
 </details>
@@ -118,27 +123,24 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
 | Apache   | ubuntu-22.04.2-live-server-amd64              | 2 GB | 16 GB          | 2            | ?            |
 | Firewall | netgate-installer-v1.0-RC-amd64-20240919-1435 | 3 GB | 20 GB          | 2            | ?            |
 | Truenas  | TrueNAS-13.0-U6.3                             | 8 GB | 20 GB x2       | 2            | ?            |
+| LDAP x2  | ubuntu-22.04.2-live-server-amd64              | ?    | ?              | ?            | ?            |
 
 </details>
 
 <details>
   <summary><b>Asignación de Roles y Responsabilidades</b></summary>
  <br>
-  Àlex: Parte principal de la web, LDAP, apoyo al Truenas, firewall
+  Àlex: Parte principal de la web, LDAP, apoyo al Truenas, firewall.
   
-  Roberto: LDAP, parte principal del Truenas, apoyo a la web, DNS, firewall
-</details>
-
-<details>
-  <summary><b>Diagrama de Gantt</b></summary>
-  
-  ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Gr%C3%A1fico%20Diagrama%20de%20Gantt%20Profesional%20Multicolor.png)
+  Roberto: LDAP, parte principal del Truenas, apoyo a la web, DNS, firewall.
 </details>
 
 <details>
   <summary><b>Diagrama de red</b></summary>
 
   ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/Captura%20de%20pantalla%202025-02-10%20081700.png)
+  <br>
+  El diagram consite en usuario cliente (Dogo Jr.) que entrara a la web almacenada en el apache escribiendo el dominio almacenado en el DNS, este usuario iniciará sesión en la web y se guardará esa información, luego el TrueNas hará copias de seguridad de la base de datos de la web, la carpeta zones del DNS y lo almacenará. Conectado al TrueNAS habrá una replicación de dos servidores maestro-esclavo LDAP que gestionaran los usuraios cada uno con un acceso a una copia de seguridad diferente.
 </details>
 
 </details>
@@ -166,7 +168,7 @@ Requisitos previos:
 ## Actualización del sistema
 
 Antes de empezar actualizamos el sistema operativo para garantizar que todas las aplicaciones y paquetes estén en su versión más reciente.
-Para ello utilizamos los comandos  
+Para ello utilizamos los comandos.
 
 **sudo apt update** para listar los paquetes que necesitan actualizaciones.
 <br>
@@ -672,7 +674,10 @@ Luego, vamos al apartado sharing/smb. Aquí es donde creamos el acceso desde un 
 <summary><b>Estructura de la web</b></summary>
 <br>
     
-## Mapa del sitio
+## Mapa de navegabilidad
+
+Un mapa de navegación web es una representación visual de las páginas que conforman un sitio web y la información que contendrán, desde aquí s epueden ver los accesos que hay entre paginas y como nos podemos mover por la web.
+<br>
 
   En este mapa se permiten ver las conexiones que hay entre paginas.
     <br>
@@ -680,6 +685,8 @@ Luego, vamos al apartado sharing/smb. Aquí es donde creamos el acceso desde un 
   ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/web/Mapa%20del%20sitio.png)
 
 ## Mockups
+Con el mockup podemos ver como es el diseño inicial de la web  como estará estructurada
+<br>
 
 Este es el mockup de la pagina de inicio
 
@@ -707,6 +714,10 @@ Este es el mockup de la pagina del registro
 <details>
   <summary><h2>👤 Replicación Master-slave con LDAP</h2></summary>
 <br>
+LDAP (Lightweight Directory Access Protocol) es un protocolo de red que se utiliza para acceder a servicios de directorio, que son bases de datos que almacenan información sobre usuarios, grupos y otros recursos de una organización. Permite la gestión y consulta de esta información de forma centralizada y segura.
+<br>
+<br>
+  
 Lo primero para la creación de una replicación Maestro-esclavo entre dos servidores LDAP es tener los servidores instalados en si, simplemente eso, para ello tenemos una guia que se encontrara en los archivos del principio, está guia esta hecha y comprobada pero un excelente alumno apuesto y galán de SMX2 llamado Àlex Domínguez que ha tenido la amabilidad de compartirnos esta guia.
 <br>
 Una vez tengamos los dos servidores creados con su IP cada uno y algo que los diferencie de maestro y esclavo podemos empezar la creación de los archivo ldif para la configuración de cada máquina.
@@ -845,3 +856,7 @@ Ahora si creamos un usuario en el maestro este se deberia de crear en el esclavo
 <br>
 Si las comprobaciones funcionan correctamente solo queda abrir una botella de champan y celebrarlo.
 </details>
+
+<details>
+  <summary><h2>🥵​ Conclusiones</h2></summary>
+<br>
