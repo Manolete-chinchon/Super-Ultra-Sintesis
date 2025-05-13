@@ -441,7 +441,7 @@ S.O.:  BSD
 ## Instalación de pfSense
 Para la instalacion de Pfsense realizaremos la configuración predeterminada. Para ello seguiremos los pasos siguientes.
 
-Une vez que iniciamos la máquina nos saltara un aviso de derechos de copyright de netgate, aceptamos para continuar la instalación.
+Una vez que iniciamos la máquina nos saltara un aviso de derechos de copyright de netgate, aceptamos para continuar la instalación.
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/derechos%20Copyright%20pfsense.PNG)
 
@@ -461,11 +461,11 @@ Como la configuración de la WAN sera dada por DHCP dejamos todo por defecto y s
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/continuamos%20con%20la%20instalacion.PNG)
 
 
-Una vez terminamos la configuración de la wan, nos saldrá el siguiente mensaje que no hemos asignado la interfaz de LAN. seleccionamos la segunda interfaz disponible em1 para asignarla como LAN.
+Una vez terminamos la configuración de la WAN, nos saldrá el siguiente mensaje que no hemos asignado la interfaz de LAN. seleccionamos la segunda interfaz disponible em1 para asignarla como LAN.
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/seleccionamos%20la%20lan.PNG)
 
-Una vez seleccionada la interfaz que utilizaremos como LAN, dentro de la configuración podemos escoger la ip que queramos asignarle al firewall y  también los rangos de IP que queremos que sean asignados a los equipos. Una vez finalizada la configuración que queramos o necesitemos asignar continuamos con la instalación. 
+Una vez seleccionada la interfaz que utilizaremos como LAN, dentro de la configuración podemos escoger la IP que queramos asignarle al firewall y  también los rangos de IP que queremos que sean asignados a los equipos. Finalizada la configuración que queramos o necesitemos asignar continuamos con la instalación. 
 
 la configuración que hemos hecho en este caso es la siguiente:
 
@@ -477,7 +477,7 @@ Confirmamos la configuración de interfaces que hemos realizado.
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Confirmaci%C3%B3n%20de%20interfaces.PNG)
 
 
-Despues de terminar con la configuración de interfaces y continuar nos saldrá un mensaje preguntando si queremos instalar la community edition de pfsense aceptamos y continuamos.
+Después de terminar con la configuración de interfaces y continuar nos saldrá un mensaje preguntando si queremos instalar la community edition de pfsense aceptamos y continuamos.
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Intalaci%C3%B3n%20community%20edition%20pfsense.PNG)
 
@@ -492,7 +492,7 @@ Seleccionamos la instalación de la última version estable, con esto empezará 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/%C3%BAltima%20versi%C3%B3n.PNG)
 
 
-Cuando finaliza el proceso de instalación deberemos reiniciar el sistema, despues apagamos la máquina, quitamos la ISO de Pfsense y volvemos a encender la máquina para poder iniciar correctamente. de lo contrario la máquina virtual nos volverá a lanzar al inicio del proceso de instalación.
+Cuando finaliza el proceso de instalación debemos reiniciar el sistema, después apagamos la máquina, quitamos la ISO de Pfsense y volvemos a encender la máquina para poder iniciar correctamente, de lo contrario, la máquina virtual nos volverá a lanzar al inicio del proceso de instalación.
 
 resultado:
 
@@ -501,7 +501,7 @@ resultado:
 
 ## Configuración de pfSense
 
-Una vez finalizada la instalación de Pfsense, abrimos una máquina cliente para comprobar que nos brinda la IP dentro del rango configurado y comprobamos que tenemos acceso a internet abriendo el navegado y entrando a una página cualquiera o haciendo un Ping.
+Una vez finalizada la instalación de Pfsense, abrimos una máquina cliente para comprobar que nos brinda la IP dentro del rango configurado y comprobamos que tenemos acceso a internet abriendo el navegador y entrando a una página cualquiera o haciendo un Ping.
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Ping%20y%20navegador.png)
 
@@ -517,7 +517,7 @@ Una vez dentro nos desplazamos a la configuración general para definir el DNS y
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Configuraciones_Generales.png)
 
-En la configuración del DHCP asignamos el rango de IP que se repartiran
+En la configuración del DHCP asignamos el rango de IP que se repartirán
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Configuraci%C3%B3n%20DHCP.png)
 
@@ -531,41 +531,41 @@ Ahora instalamos las dependencias necesarias para crear nuestro VPN
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Dependencias%20OpenVPN.png)
 
-Generamos las certificaciones para el buen uso
+Generamos las certificaciones para asegurar la conexión VPN.
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/OpenVPN_CA.png)
 
-Creamos un usuario especifico para usar en el OpenVPN, cuando ya este creado creamos unas certificaciones especificas para este usuario
+Creamos un usuario específico para usar en el OpenVPN, y asu vez, creamos las certificaciones específicas para este usuario.
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/CertificadosVPN_y_Usuarios.png)
 
-Configuramos la regla para ya tenerlo listo y poder usar el VPN correctamente
+Configuramos la regla para tenerlo listo y poder usar el VPN correctamente.
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/OpenVPN%20REGLA.png)
 
-En un dispositivo movil, por ejemplo, descargamos una aplicación cualquiera para el VPN, cargamos el archivo VPN y se nos guarada la configuración
+En un dispositivo móvil, por ejemplo, descargamos una aplicación cualquiera para el VPN, cargamos el archivo VPN y se nos guarada la configuración.
 
 <img src="https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/OpenVPN%20interfaz%20movil.jpg" width="500" height="800" />
 
-Le damos a conectar y comenzara a salir un monton de texto hasta que nos diga succes
+Le damos a conectar y comenzará a salir un montón de texto hasta que nos diga succes.
 
 <img src="https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Conexi%C3%B3n%20VPN.jpg" width="500" height="800" />
 
-Una vez conectados podemos comprobar que podemos entrar a la pagina de configuración de pfsense
+Una vez conectados podemos comprobar que podemos entrar a la página de configuración de pfsense.
 
 <img src="https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Acceso%20pfsense%20movil.jpg" width="500" height="800" />
 
-Tambien al dominio apache situado en la misma red interna
+También al dominio apache situado en la misma red interna.
 
 <img src="https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/VPN_WEB.jpg" width="500" height="800" />
 
 ## SSH
 
-Creamos la regla para habilitar el ssh y permitir las conexiones hacia el servidor
+Creamos la regla para habilitar el ssh y permitir las conexiones hacia el servidor.
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/Port%20forward%20SSH.png)
 
-Una vez creado comprobamos las conexiones, si nos conectamos correctamente habremos realizado con éxito la configuración del ssh
+Una vez creado comprobamos las conexiones, si nos conectamos correctamente habremos realizado con éxito la configuración del ssh.
 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/firewall/pfsense/comprobaci%C3%B3n%20ssh.png)
 
