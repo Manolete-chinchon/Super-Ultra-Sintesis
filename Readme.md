@@ -652,18 +652,34 @@ Luego, vamos al apartado sharing/smb. Aquí es donde creamos el acceso desde un 
 ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/SMB.png)
 
 
+Para hacer que el servidor truenas copie los archivos o carpetas importantes, es necesario crear un script para mejorar la practicidad y ahorrarnos el tiempo. Para ello vamos al apartado shell. por defecto estaremos en root, para entrar en nuestro usuario escribimos el comando: **su - nombre_del_usuario**. una vez dentro, si hacemos un **ls** podemos observar los datasets creados en el pool. Aquí mismo creamos el script con el comando **nano backup.sh** dentro de este fichero nano escribimos el siguiente contenido.
+
+  ![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/script%20truenas.png)
 
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/creaci%C3%B3n%20script.png)
+Para comprobar que el script funciona, lo ejecutamos con el comando **sh backup.sh**
+resultado:
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/Comprobaci%C3%B3n%20del%20script_truenas.png)
 
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/envio%20backup.png)
+Hacemos una comprobación final en un equipo con interfaz gráfica, en este caso usamos un windows 10. En el navegador de archivos, vamos al apartado de red y en el buscador escribimos la IP del servidor truenas. Si todo está correctamente debería de estar las carpetas (datasets) que creamos en el pool y dentro del que se haya elegido para guardar una copia ver los archivos del equipo. como se puede ver en la imagen.
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/interfaz_gr%C3%A1frica_script.png)
+
+Una vez comprobado que todo se realiza correctamente, para mayor comodidad creamos un crontab y programar una tarea en la que ejecutaremos el script backup.sh cada fin de semana. Para ello usamos el comando **crontab -e**
+dentro del fichero escribimos los siguientes parámetros donde: 
+<br>
+00 - son los minutos 
+<br>
+00 - es la hora
+<br>
+6 - es el día en este caso sábado
+lo que quiere decir que el script se ejecute todos los sábados a las 12:00 am
+
+![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/creaci%C3%B3n%20del%20crontab.png)
 
 
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/envio%20backup.png)
-
-
-![](https://github.com/Manolete-chinchon/Super-Ultra-Sintesis/blob/main/images/truenas/Comprobar%20backups.png)
 
 
 </details>
