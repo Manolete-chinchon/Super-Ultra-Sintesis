@@ -117,13 +117,13 @@ Nuestro objetivo es aprender las funciones y a manejar el protocolo LDAP y a exp
   
 | Servicio | Sistema Operativo                             | RAM  | Almacenamiento | Procesadores | Ip           |
 | -------- | --------------------------------------------- | ---- | -------------- | ------------ | ------------ |
-| Host     | Win11_22H2_Spanish_x64v2                      | 16 GB| 722 GB         | 8            | ?            |
+| Host     | Win11_22H2_Spanish_x64v2                      | 16 GB| 722 GB         | 8            | 100.77.20.35 |
 | DNS      | ubuntu-22.04.2-live-server-amd64              | 2 GB | 20 GB          | 2            | ?            |
 | DHCP     | ubuntu-22.04.2-live-server-amd64              | 2 GB | 20 GB          | 2            | ?            |
-| Apache   | ubuntu-22.04.2-live-server-amd64              | 2 GB | 16 GB          | 2            | ?            |
-| Firewall | netgate-installer-v1.0-RC-amd64-20240919-1435 | 3 GB | 20 GB          | 2            | ?            |
-| Truenas  | TrueNAS-13.0-U6.3                             | 8 GB | 20 GB x2       | 2            | ?            |
-| LDAP x2  | ubuntu-22.04.2-live-server-amd64              | ?    | ?              | ?            | ?            |
+| Apache   | ubuntu-22.04.2-live-server-amd64              | 2 GB | 16 GB          | 2            | 192.168.1.10 |
+| Firewall | netgate-installer-v1.0-RC-amd64-20240919-1435 | 3 GB | 20 GB          | 2            | 192.168.1.5  |
+| Truenas  | TrueNAS-13.0-U6.3                             | 8 GB | 20 GB x2       | 2            | 192.168.1.6  |
+| LDAP x2  | ubuntu-22.04.2-live-server-amd64              | 2 GB | 20 GB          | 2            | 192.168.1.8-9|
 
 </details>
 
